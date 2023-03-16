@@ -8,9 +8,9 @@
     --font-Sans: 'Open Sans', sans-serif;
 }
 
+/* NAVBAR */
 .navbar {
     background-color: var(--clr-black);
-    color: var(--clr-white);
     display: flex;
     justify-content: space-between;
     font-family: var(--font-Sans);
@@ -22,11 +22,53 @@
 }
 .navbar-der, .navbar-izq {
     display: flex;
+    color: var(--clr-white);
     align-items: center;
     gap: .6rem;
     margin-right: 1rem;
+    text-decoration: none;
 }
-
 .navbar__btn:hover {
     color: var(--clr-white-act);
+}
+
+/* CUADRO CLASIFICACIONES CARRERA */
+.clasificacionCarrera {
+    display: flex;
+    justify-content: end;
+    border: solid 1px var(--clr-black);
+    margin: 1rem 5rem 1rem 5rem;
+    padding: .5rem;
+    gap: .2rem;
+}
+
+.paises {
+    height: 2rem;
+}
+
+
+/* cars ---------------------------------------------------------- */
+.race-speedway {
+    position: relative;
+}
+
+.race-car {
+    position: absolute;
+    height: 5rem;
+    transform: rotate(-90deg);
+    top: calc(100px + var(--i));
+    left: 50px;
+}
+
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
 }

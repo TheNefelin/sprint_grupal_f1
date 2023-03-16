@@ -1,5 +1,11 @@
 {{#> plantilla}}
-    {{#each carrera }}
-        <img src={{flag}}>
-    {{/each}}
+    <div class="clasificacionCarrera">
+        {{!-- {{#each carrera }}
+            <img class="paises" src={{flag}}>
+        {{/each}} --}}
+
+        {{#each equipos }}
+            <img class="paises" src={{team}}>
+        {{/each}}
+    </div>
 {{/plantilla}}
