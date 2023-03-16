@@ -4,24 +4,28 @@
             "escuderia": "Alfa Romeo",
             "piloto1": "Valtteri Bottas",
             "piloto2": "Guanyu Zhou",
-            "img": "/img/cars/car_01.svg"
+            "img": "/img/cars/car_01.svg",
+            "team": "/img/team/1alfaromeo.jpg"
         },
         {
             "escuderia": "Alpine",
             "piloto1": "Esteban Ocon",
             "piloto2": "Pierre Gasly",
-            "img": "/img/cars/car_02.svg"
+            "img": "/img/cars/car_02.svg",
+            "team": "/img/team/2alpine.jpeg"
         },
         {
             "escuderia": "Alpha Tauri",
             "piloto1": "Nyck de Vries",
-            "img": "/img/cars/car_03.svg"
+            "img": "/img/cars/car_03.svg",
+            "team": "/img/team/3aphatauri.jpeg"
         },
         {
             "escuderia": "Aston Martin",
             "piloto1": "Lance Stroll",
             "piloto2": "Fernando Alonso",
-            "img": "/img/cars/car_04.svg"
+            "img": "/img/cars/car_04.svg",
+            "team": "/img/team/4astonmartin.png"
         },
         {
             "escuderia": "Ferrari",
