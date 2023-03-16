@@ -8,6 +8,7 @@
     --font-Sans: 'Open Sans', sans-serif;
 }
 
+/* NAVBAR */
 .navbar {
     background-color: var(--clr-black);
     color: var(--clr-white);
@@ -26,7 +27,24 @@
     gap: .6rem;
     margin-right: 1rem;
 }
-
 .navbar__btn:hover {
     color: var(--clr-white-act);
+}
+
+/* CUADRO CLASIFICACIONES CARRERA */
+.clasificacionCarrera {
+    display: flex;
+    justify-content: end;
+    border: solid 1px var(--clr-black);
+    margin: 1rem 5rem 1rem 5rem;
+    padding: .5rem;
+    gap: .2rem;
+}
+
+.circulo {
+    height: 2rem;
+}
+/* FOOTER */
+footer {
+    text-align: center;
 }
