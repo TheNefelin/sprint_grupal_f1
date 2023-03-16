@@ -1,99 +1,1887 @@
-<?xml version="1.0"?>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 553.89 583.25" version="1.1">
-  <g id="layer1" transform="translate(-52.53 -151.15)">
-    <g id="g4788">
-      <path id="path4736" stroke-linejoin="round" style="color:#000000" d="m389.67 311.12c-7.2174-4.8294-14.212-9.2335-14.226-9.6222-0.0469-1.3536 11.521-14.049 15.565-17.135 2.5163-1.9196 6.3899-3.3771 8.1723-3.3771 4.0286 0 8.3541 4.6015 10.49 9.4304 2.0025 4.5269 1.0228 7.4016-2.6793 18.108-1.0713 3.0984-2.5808 6.5936-2.6953 8.0967-0.11453 1.5031 1.0434 4.7262 0.76085 4.6912s-8.1713-5.363-15.389-10.192z" transform="translate(52.53 151.15)" stroke="#434343" stroke-linecap="round" fill="#434343"/>
-      <path id="path4738" stroke-linejoin="round" style="color:#000000" d="m466.02 257.01-7.7331-8.0632 5.9967-12.51c9.3958-18.751 17.784-21.843 26.793-14.262 3.7503 3.1556 5.3551 9.3772 3.9281 14.776-0.59073 2.235-4.0044 8.0199-7.5859 13.35-3.5815 5.3297-7.4792 10.891-7.8376 12.523-0.35849 1.6322-0.21916 5.4917-0.67892 5.7759-0.45976 0.28415-5.6571-4.8238-10.726-9.7034l-2.1568-1.8872z" transform="translate(52.53 151.15)" stroke="#434343" stroke-linecap="round" fill="#434343"/>
-      <rect id="rect2818" stroke-linejoin="round" ry="5.3837" style="color:#000000" transform="rotate(38.669)" height="10.767" width="601.71" stroke="#ffc7c7" stroke-linecap="round" y="239.19" x="264.65" stroke-width=".2"/>
-      <path id="path4600" d="m11.793 345.53c24.506-28.2 51.593-145.4 106.14-147.42 18.815-3.5938 205.68 172.75 283.41 219.35-22.073-12.227-79.899 121.52-111.23 150.95" transform="translate(52.53 15.031)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4602" d="m401.04 417.3c1.392 0.77334 6.8881 3.0236 9.5701 10.575 2.8828 10.513-11.823 26.289-2.5653 32.045 37.332 23.211 45.649-125.24 81.373-103.78 0 0-259.1-199.97-284.22-199.31-28.699 1.4582-52.575 62.785-52.575 62.785" transform="translate(52.53 15.031)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4604" d="m489.08 355.89c1.9487 1.1014 11.377 7.215 4.4774 22.251-2.2888 4.9874-20.597 24.421-11.846 30.375 28.537 19.415 71.677-101.73 71.677-101.73-75.351-29.679-148.59-98.942-261.32-170.17-3.4029 24.688-23.178 39.927-32.834 50.024" transform="translate(52.53 15.031)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4659" d="m480.71 271.54-22.74-21.74" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4661" d="m408.14 323.87l-33.411-22.256" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4663" d="m53.544 239.99c34.186-51.48 42.952-121.45 103.27-153.94" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4663-6" d="m151.01 428.91c34.19-51.48 43.91-121.45 104.22-153.94" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4663-0" d="m196.91 467.16c43.75-56.27 52.03-113.09 104.69-153.23" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4663-7" d="m247.58 507.32c42.8-47.66 48.93-119.55 102.55-152.99" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4663-2" d="m293.48 546.52c42.79-48.62 51.56-109.98 109-150.12" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4714" d="m69.799 97.527c116.36 84.173 197.22 175.87 284.93 234.25" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4716" d="m38.005 158.96c115.7 73.84 177.14 156.09 285.18 225.89" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4718" stroke-linejoin="round" style="color:#000000" d="m92.097 112.97c-10.11-7.73-18.88-14.553-19.491-15.164-0.841-0.842 0.397-3.027 5.135-9.06 10.339-13.164 19.661-20.506 30.159-23.747 8.5214-2.632 11.929-2.421 18.242 1.1297 7.6678 4.3125 27.845 18.767 27.845 19.948 0 0.28644-1.3984 1.3195-3.1075 2.2957-10.914 6.2339-25.856 19.87-34.915 31.864-2.8798 3.8126-5.2914 6.8995-5.3592 6.8597-0.0678-0.0399-8.3946-6.3966-18.504-14.126v0z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4720" stroke-linejoin="round" style="color:#000000" d="m199.88 202.51c-2.8924-2.6975-13.219-11.784-22.948-20.192-9.7288-8.4082-17.832-15.651-18.008-16.095-0.38565-0.9763 4.5999-7.5472 12.782-16.826 6.815-7.7283 16.636-16.367 25.434-21.711l5.6104-2.568 22.007 18.426c12.104 10.134 22.387 18.733 22.246 19.11-0.14071 0.37622-4.3869 4.0249-8.8305 8.1083-10.315 9.4787-17.735 17.838-25.173 28.359-3.2528 4.6015-5.76 9.4362-6.2958 9.4161-0.53581-0.02-3.9332-3.3297-6.8255-6.0272z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4722" stroke-linejoin="round" style="color:#000000" d="m299.22 288.91c-2.3152-1.8808-13.03-10.931-23.811-20.112-10.781-9.1808-19.766-16.821-19.968-16.978-0.20163-0.15704 2.8874-5.1718 6.8645-11.144 8.4897-12.748 17.941-23.183 27.921-30.827l7.1695-5.4914 4.6615 3.7165c29.238 23.311 47.033 36.969 46.433 37.454-0.40135 0.32453-4.9104 3.2398-8.6522 6.237-9.3435 7.4841-20.88 19.698-29.33 31.052l-7.0798 9.5129-4.2095-3.4197z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4724" stroke-linejoin="round" style="color:#000000" d="m219.04 303.32c-20.2-17.492-41.597-36.908-41.408-37.578 0.37209-1.3224 21.715-41.059 25.54-47.55 1.9541-3.3164 3.6058-7.083 4.0326-6.9219 1.4749 0.55676 45.296 40.574 45.04 41.104-5.1733 10.71-27.568 55.504-27.741 55.488-0.13457-0.0128-2.5928-2.0566-5.4628-4.5417z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4726" stroke-linejoin="round" style="color:#000000" d="m311.19 375.47c-6.3567-4.3054-17.352-12.096-24.433-17.312l-12.876-9.4843 8.7169-15.854c12.2-22.189 20.618-36.411 21.551-36.411 0.43645 0 6.9511 4.7446 14.477 10.543 7.5259 5.7989 18.459 13.866 24.296 17.928l10.613 7.3843-3.5492 5.7369c-1.9521 3.1553-8.8166 14.665-15.255 25.577-6.438 10.912-11.768 19.813-11.844 19.78-0.0765-0.0332-5.34-3.5829-11.697-7.8882v0z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4728" stroke-linejoin="round" style="color:#000000" d="m123.9 220.92c-0.72194-1.1681-20.285-16.796-32.302-25.805-5.1274-3.8437-9.3225-7.3949-9.3225-7.8915 0-2.0559 17.349-37.6 22.904-46.927l6.0057-10.082 18.771 15.326c26.996 22.042 26.3 19.914 24.752 22.347-6.1841 9.7208-10.956 17.864-19.16 34.575-5.2286 10.649-9.8628 19.362-10.298 19.362-0.4353 0-1.0432-0.40726-1.3508-0.90503z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4730" stroke-linejoin="round" style="color:#000000" d="m33.904 223.54c-10.473-8.46-18.939-15.73-18.815-16.16 0.12436-0.4265 1.6797-3.0518 3.4563-5.834s6.9894-13.019 11.584-22.747c4.5946-9.7288 8.4409-17.784 8.5474-17.9 0.26824-0.29272 10.966 6.857 27.046 18.076l13.57 9.4675-5.2536 11.194c-6.142 13.087-14.189 28.44-18.24 34.798l-2.8545 4.4814-19.041-15.38z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4732" stroke-linejoin="round" style="color:#000000" d="m122.91 294.91c-12.095-9.7257-21.862-18.164-21.705-18.752 0.15782-0.58794 2.3783-4.6097 4.9344-8.9373s8.2615-15.389 12.679-24.582l8.0311-16.713 11.894 10.043c16.966 14.325 34.789 30.003 35.152 30.922 0.63945 1.6181-26.929 45.856-28.503 45.739-0.27018-0.0201-10.387-7.994-22.483-17.72z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4734" stroke-linejoin="round" style="color:#000000" d="m220.76 373.21c-12.276-9.8017-22.464-17.934-22.639-18.071-0.17552-0.13742 2.2368-3.6201 5.3608-7.7393 6.7546-8.9065 11.939-17.066 17.692-27.848l4.2309-7.9283 13.319 11.275c10.337 8.7509 24.626 20.34 31.877 25.855 1.1924 0.90687-16.945 29.637-24.135 38.23l-3.3861 4.0471-22.32-17.821z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4740" d="m195.05 116.65c18.94-23.359 31.66-76.36 54.09-72.256" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4742" d="m244.36 157.35c22.263-22.639 33.968-81.211 52.588-80.088" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4744" d="m287.62 194.83c19.384-15.275 41.711-94.064 58.689-82.182" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4746" d="m337.43 234.8c23.227-24.331 37.613-93.73 58.056-85.684" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4748" d="m388.59 272.99c14.246-15.301 25.681-92.47 49.099-92.276" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4750" d="m175.67 41.491c100.85 107.6 192.77 142.09 272.76 230.06" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4752" stroke-linejoin="round" style="color:#000000" d="m177.33 101.48c-9.4975-7.6964-18.663-15.069-20.368-16.384l-3.1-2.3904 5.8-11.768c6.3527-12.889 15.126-27.198 16.406-26.758 0.44616 0.15367 9.1964 8.627 19.445 18.83l18.634 18.55-5.8744 11.09c-3.2309 6.0997-7.6294 13.73-9.7744 16.957l-3.9 5.8662-17.268-13.993z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4754" stroke-linejoin="round" style="color:#000000" d="m267.65 176.72c-10.716-8.9548-21.299-18.068-22.003-18.739-1.0612-1.0107 0.54562-0.75093 3.3922-4.4801 3.7623-4.9289 9.375-14.313 13.466-22.513 1.4429-2.8924 2.5169-7.1495 2.6894-7.3414 0.29401-0.32714 36.369 27.809 41.94 32.458l2.5562 2.1332-5.7325 11.463c-7.0575 12.893-13.86 22.068-16.112 23.475-1.4545 0.90835-3.5516-2.5478-20.196-16.456z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4756" stroke-linejoin="round" style="color:#000000" d="m377.72 264.26c-5.5218-3.9216-16.603-12.144-24.625-18.272l-14.585-11.142 2.3302-2.4469c3.0905-3.2453 7.9712-11.45 14.978-25.18l5.7461-11.259 10.229 7.8644c5.6261 4.3254 15.452 12.174 21.834 17.442l11.605 9.5774-3.647 10.55c-5.021 14.525-10.271 26.799-12.207 28.541-1.4753 1.3271-2.5114 0.82291-11.659-5.6736z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4758" stroke-linejoin="round" style="color:#000000" d="m436.52 257.73c-6.8355-6.9896-16.167-16.098-20.736-20.24l-8.3075-7.532 3.773-10.04c5.6648-15.074 11.772-27.129 16.148-31.876 4.3659-4.7364 8.9146-7.1318 10.798-5.6866 0.65688 0.5039 11.032 8.4062 23.057 17.561l23.048 17.435-4.8079 0.0668c-7.9565 1.8817-16.78 15.665-25.778 40.268-2.5003 6.8365-4.5955 12.502-4.656 12.591-0.0605 0.0886-5.7026-5.5577-12.538-12.547v0z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4760" stroke-linejoin="round" style="color:#000000" d="m336.65 174.89c-12.862-9.4608-23.507-17.483-23.8-17.615-1.8065-0.81584 11.988-27.837 15.59-33.206 4.8902-7.2902 11.135-11.982 13.978-11.982 1.7902 0 9.2862 5.7209 25.378 17.596 12.561 9.2691 23.997 17.747 24.204 17.931 0.20674 0.18441-1.4293-0.1188-2.4249 0.23429-6.8571 2.432-13.097 12.412-22.511 32.129-3.5972 7.5343-6.65 12.19-6.7841 12.163-0.1341-0.0273-10.768-7.7902-23.63-17.251z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4762" stroke-linejoin="round" style="color:#000000" d="m257.67 116.32c-15-12.52-31.29-27.09-35.67-31.016l-5.1308-4.5942 3.5751-7.0992c8.3484-16.578 15.889-25.572 23.301-27.793 4.5523-1.3639 1.9583-2.8023 30.979 17.178 18.361 12.641 19.836 12.563 17.723 13.923-5.5939 3.6004-10.777 10.232-18.765 26.509-4.568 9.3084-8.2404 18.175-8.7663 18.191-0.52589 0.0154-4.8736-3.3207-7.2401-5.2948z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4764" d="m270.59 39.202c75.525 43.724 161.12 124.3 258.16 186.45" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4766" d="m335.35 28.173c-5.0901 35.404-19.271 34.502-31.101 54.764" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4768" d="m382 63.331c-6.59 29.468-19.56 37.879-27.72 54.759" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4770" d="m423.92 91.727c-7.602 39.181-17.598 33.283-22.311 60.849" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4772" d="m465.16 121.48c-5.3804 32.563-11.4 39.619-20.283 64.906" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4774" d="m508.43 149.87c-4.3229 19.532-11.256 41.438-27.044 62.877" transform="translate(52.53 151.15)" stroke="#000" stroke-width="1px" fill="none"/>
-      <path id="path4776" stroke-linejoin="round" style="color:#000000" d="m305.46 60.335c-5.3919-3.7028-14.976-9.9535-21.297-13.89-6.3216-3.9369-11.627-7.2715-11.79-7.4102-0.16274-0.13869 0.93099-1.5388 2.4305-3.1114 8.0543-8.4468 14.718-20.171 17.094-30.073 0.46829-1.952 0.9523-3.5492 1.0756-3.5492 0.33032 0 24.172 15.422 33.419 21.617l7.9805 5.3466-0.60462 3.2516c-2.5076 13.486-8.2186 24.888-16.24 32.423l-2.2648 2.1276-9.8035-6.7324z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4778" stroke-linejoin="round" style="color:#000000" d="m385.15 119.38-20.646-15.961 3.5335-5.431c7.1131-10.933 9.809-16.784 13.108-28.448l1.7294-6.1149 20.017 14.444 20.017 14.444-1.2726 5.5313c-2.6284 11.424-5.3425 18.404-11.538 29.672l-4.302 7.8246-20.646-15.961z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4780" stroke-linejoin="round" style="color:#000000" d="m470.94 184.61c-10.314-7.4927-18.757-13.962-18.762-14.375-0.005-0.41367 0.85365-2.8476 1.9076-5.4088 4.5597-11.081 8.7682-25.55 10.932-37.584l0.81475-4.5315 6.8596 4.597c8.096 5.4257 27.042 17.302 31.919 20.007l3.4238 1.8998-0.85111 2.7731c-0.46812 1.5252-1.9118 6.6038-3.2081 11.286-2.7699 10.004-6.3883 19.377-10.977 28.436l-3.305 6.524-18.753-13.623z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4782" stroke-linejoin="round" style="color:#000000" d="m423.38 168.79-21.021-15.902 1.2026-5.1491c0.66142-2.832 1.6155-6.1269 2.1202-7.322l0.91763-2.1728 7.069 5.5139c3.888 3.0326 13.306 10.22 20.929 15.972 7.623 5.7522 14.133 10.697 14.466 10.99 0.34487 0.30236-0.49228 3.4581-1.9441 7.3287-1.4024 3.7387-2.5877 6.7631-2.634 6.7208s-9.5436-7.2328-21.105-15.979z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4784" stroke-linejoin="round" style="color:#000000" d="m330.81 100.24c-12.271-8.9349-22.893-16.663-23.604-17.173-1.2579-0.90282-1.2464-0.99662 0.43222-3.5332 1.9592-2.9605 7.2014-9.178 8.0037-9.4928 0.60483-0.2373 5.5681 3.3105 29.028 20.749 9.1105 6.7723 16.661 12.59 16.78 12.927 0.11831 0.33766-0.97863 2.3772-2.4377 4.5323-1.459 2.1551-3.1609 4.9071-3.782 6.1157-0.62108 1.2085-1.3496 2.1798-1.6189 2.1585-0.26935-0.0214-10.53-7.3492-22.801-16.284z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-      <path id="path4786" stroke-linejoin="round" style="color:#000000" d="m483.42 272.06c-5.1803-3.1584-3.9792-7.706 5.8016-21.966 7.1529-10.429 9.1247-17.631 6.5283-23.845-1.3297-3.1825-2.9236-4.8655-8.588-9.0683-2.51-1.8623-5.3537-3.6719-5.3537-4.0212 0-0.54042 7.0469-10.964 8.4505-12.609 0.25953-0.30422 3.3954 2.6191 7.21 5.2894s12.352 8.4322 18.973 12.804l12.037 7.9491-4.412 8.032c-16.581 30.185-30.904 43.376-40.647 37.436z" transform="translate(52.53 151.15)" stroke="#000" stroke-linecap="round"/>
-    </g>
-  </g>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
-        <dc:publisher>
-          <cc:Agent rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title>Wavy checkered flag</dc:title>
-        <dc:date>2010-05-25T14:01:00</dc:date>
-        <dc:description>A checkered flag, used to mark the end of a car race, wavy version. Drawn in Inkscape.</dc:description>
-        <dc:source>http://openclipart.org/detail/62779/wavy-checkered-flag-by-j_alves</dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>J_Alves</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>automotive</rdf:li>
-            <rdf:li>car</rdf:li>
-            <rdf:li>checkered</rdf:li>
-            <rdf:li>clip art</rdf:li>
-            <rdf:li>clipart</rdf:li>
-            <rdf:li>finish</rdf:li>
-            <rdf:li>flag</rdf:li>
-            <rdf:li>race</rdf:li>
-            <rdf:li>racing</rdf:li>
-            <rdf:li>sports</rdf:li>
-            <rdf:li>sports2010</rdf:li>
-            <rdf:li>victory</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg4498"
+    sodipodi:docname="New document 3"
+    viewBox="0 0 64 64"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <title
+      id="title5409"
+    >netalloy chequered flag</title
+  >
+  <defs
+      id="defs4500"
+    >
+    <linearGradient
+        id="linearGradient4107"
+        y2="-915.51"
+        xlink:href="#linearGradient4121"
+        gradientUnits="userSpaceOnUse"
+        x2="-376.18"
+        gradientTransform="matrix(.30081 0 0 .20986 -1650.2 -38.878)"
+        y1="-397.02"
+        x1="-342.86"
+        inkscape:collect="always"
+    />
+    <linearGradient
+        id="linearGradient4121"
+        inkscape:collect="always"
+      >
+      <stop
+          id="stop4123"
+          style="stop-color:#ffffff"
+          offset="0"
+      />
+      <stop
+          id="stop4125"
+          style="stop-color:#ffffff;stop-opacity:0"
+          offset="1"
+      />
+    </linearGradient
+    >
+    <linearGradient
+        id="linearGradient15735"
+        y2="-915.51"
+        xlink:href="#linearGradient4121"
+        gradientUnits="userSpaceOnUse"
+        x2="-376.18"
+        gradientTransform="matrix(.27103 0 0 .29249 889.99 -551.58)"
+        y1="-397.02"
+        x1="-342.86"
+        inkscape:collect="always"
+    />
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-4"
+      pagecolor="#ffffff"
+      inkscape:window-height="712"
+      inkscape:grid-bbox="true"
+      inkscape:window-maximized="1"
+      inkscape:zoom="10.462891"
+      inkscape:window-x="-4"
+      showgrid="true"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="17.950345"
+      inkscape:cy="35.823035"
+      inkscape:window-width="1280"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+    >
+    <g
+        id="g5285"
+      >
+      <rect
+          id="rect4773"
+          style="opacity:0;stroke-width:0"
+          ry="0"
+          height="63.256"
+          width="63.256"
+          y=".37216"
+          x=".37216"
+      />
+      <g
+          id="g4232"
+          transform="matrix(.083432 -.031992 0 .083432 -73.61 -8.8406)"
+        >
+        <rect
+            id="rect2870"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="115.67"
+            x="1688.9"
+        />
+        <rect
+            id="rect2872"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="115.67"
+            x="1719.7"
+        />
+        <rect
+            id="rect3646"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="136.51"
+            x="1658.8"
+        />
+        <rect
+            id="rect3648"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="136.51"
+            x="1689.6"
+        />
+        <rect
+            id="rect3650"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1749.2"
+            x="136.59"
+        />
+        <rect
+            id="rect3652"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1749.2"
+            x="158.02"
+        />
+        <rect
+            id="rect3654"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1718.9"
+            x="156.97"
+        />
+        <rect
+            id="rect3656"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1718.9"
+            x="178.41"
+        />
+        <rect
+            id="rect3658"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="177.73"
+            x="1718.6"
+        />
+        <rect
+            id="rect3660"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="198.57"
+            x="1719.2"
+        />
+        <rect
+            id="rect3662"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1748.5"
+            x="219.03"
+        />
+        <rect
+            id="rect3666"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="157.65"
+            x="1748.2"
+        />
+        <rect
+            id="rect3668"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="178.48"
+            x="1748.9"
+        />
+        <rect
+            id="rect3670"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1778.2"
+            x="198.95"
+        />
+        <rect
+            id="rect3672"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1778.2"
+            x="220.38"
+        />
+        <rect
+            id="rect3674"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="137.26"
+            x="1777.9"
+        />
+        <rect
+            id="rect3676"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="158.1"
+            x="1778.5"
+        />
+        <rect
+            id="rect3678"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1808.7"
+            x="177.96"
+        />
+        <rect
+            id="rect3680"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1807.8"
+            x="199.99"
+        />
+        <rect
+            id="rect3682"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="157.35"
+            x="1808.8"
+        />
+        <rect
+            id="rect3684"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="178.18"
+            x="1809.5"
+        />
+        <rect
+            id="rect3686"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1838.7"
+            x="199.24"
+        />
+        <rect
+            id="rect3688"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1838.7"
+            x="220.08"
+        />
+        <rect
+            id="rect3690"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="178.93"
+            x="1658"
+        />
+        <rect
+            id="rect3692"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="199.77"
+            x="1658.6"
+        />
+        <rect
+            id="rect3694"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1687.9"
+            x="220.23"
+        />
+        <rect
+            id="rect3698"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="199.32"
+            x="1688.1"
+        />
+        <rect
+            id="rect3700"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="220.16"
+            x="1688.7"
+        />
+        <rect
+            id="rect3706"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1868.8"
+            x="220.01"
+        />
+        <rect
+            id="rect3708"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1837.3"
+            x="221.06"
+        />
+        <rect
+            id="rect3710"
+            ry="15.074"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-241.49"
+            x="-1807.9"
+        />
+        <rect
+            id="rect3712"
+            ry="15.074"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-241.49"
+            x="-1777.2"
+        />
+        <rect
+            id="rect3714"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1837.6"
+            x="115.68"
+        />
+        <rect
+            id="rect3716"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1807.8"
+            x="116.13"
+        />
+        <rect
+            id="rect3718"
+            style="stroke-width:0;fill:url(#linearGradient4107)"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-136.56"
+            x="-1778.4"
+        />
+        <rect
+            id="rect3720"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="9.5459"
+            height="19.092"
+            width="27.943"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-156.37"
+            x="-1776.9"
+        />
+        <rect
+            id="rect3722"
+            ry="15.074"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-199.46"
+            x="-1869.1"
+        />
+        <rect
+            id="rect3724"
+            ry="15.074"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-178.63"
+            x="-1868.4"
+        />
+        <rect
+            id="rect3726"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.59562 -.80326 .87909 .47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="1839.1"
+            x="-158.17"
+        />
+        <rect
+            id="rect3728"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.59562 -.80326 .87909 .47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="1838.5"
+            x="-136.73"
+        />
+        <rect
+            id="rect3730"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1899.1"
+            x="116.28"
+        />
+        <rect
+            id="rect3732"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-220.45"
+            x="-1899.8"
+        />
+        <rect
+            id="rect3734"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-199.61"
+            x="-1899.1"
+        />
+        <rect
+            id="rect3736"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.59562 -.80326 .87909 .47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="1869.8"
+            x="-179.15"
+        />
+        <rect
+            id="rect3738"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.59562 -.80326 .87909 .47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="1869.2"
+            x="-157.72"
+        />
+        <rect
+            id="rect3740"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1718.6"
+            x="239.54"
+        />
+        <rect
+            id="rect3742"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.87909 .47665 -.59562 .80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="239.46"
+            x="1719.4"
+        />
+        <rect
+            id="rect3744"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1897.8"
+            x="239.92"
+        />
+        <rect
+            id="rect3746"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1867.9"
+            x="240.37"
+        />
+        <rect
+            id="rect3748"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="15.074"
+            height="20.986"
+            width="30.081"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-260.8"
+            x="-1838.6"
+        />
+        <rect
+            id="rect3752"
+            ry="21.606"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1778.3"
+            x="240.22"
+        />
+        <rect
+            id="rect4239"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.606"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1776.6"
+            x="115.64"
+        />
+        <rect
+            id="rect15579"
+            ry="8.8262"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.87909 -.47665 .59562 -.80326 0 0)"
+            height="17.652"
+            width="27.822"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-155.3"
+            x="-1838"
+        />
+        <path
+            id="path15581"
+            style="stroke:#000000;stroke-linecap:round;stroke-width:14.845;fill:none"
+            d="m1389.2 874.54-207.83 263.57"
+            inkscape:export-ydpi="19.980349"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            inkscape:export-xdpi="19.980349"
+        />
+        <rect
+            id="rect15603"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1868.8"
+            x="199.22"
+        />
+        <rect
+            id="rect15605"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="14.302"
+            height="29.629"
+            width="21.653"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1690"
+            x="156.8"
+        />
+        <rect
+            id="rect15607"
+            ry="13.205"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="29.54"
+            width="18.002"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1899.2"
+            x="221.44"
+        />
+        <rect
+            id="rect15609"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="12.588"
+            height="29.871"
+            width="18.774"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1687.8"
+            x="241.58"
+        />
+        <rect
+            id="rect15611"
+            ry="21.606"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            height="30.081"
+            width="20.986"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1806.1"
+            x="240"
+        />
+        <rect
+            id="rect15613"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.59562 .80326 -.87909 -.47665 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="12.467"
+            height="24.934"
+            width="21.018"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-1688.5"
+            x="114.94"
+        />
+        <rect
+            id="rect15615"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="658.61"
+            x="-855.14"
+        />
+        <rect
+            id="rect15617"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="658.61"
+            x="-827.46"
+        />
+        <rect
+            id="rect15619"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="687.65"
+            x="-882.24"
+        />
+        <rect
+            id="rect15621"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="687.65"
+            x="-854.56"
+        />
+        <rect
+            id="rect15623"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="800.87"
+            x="687.76"
+        />
+        <rect
+            id="rect15625"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="800.87"
+            x="717.63"
+        />
+        <rect
+            id="rect15627"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="828.17"
+            x="716.17"
+        />
+        <rect
+            id="rect15629"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="828.17"
+            x="746.05"
+        />
+        <rect
+            id="rect15631"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="745.11"
+            x="-828.42"
+        />
+        <rect
+            id="rect15633"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="774.15"
+            x="-827.84"
+        />
+        <rect
+            id="rect15635"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="801.46"
+            x="802.67"
+        />
+        <rect
+            id="rect15637"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="717.11"
+            x="-801.71"
+        />
+        <rect
+            id="rect15639"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="746.15"
+            x="-801.13"
+        />
+        <rect
+            id="rect15641"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="774.74"
+            x="774.67"
+        />
+        <rect
+            id="rect15643"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="774.74"
+            x="804.55"
+        />
+        <rect
+            id="rect15645"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="688.7"
+            x="-774.99"
+        />
+        <rect
+            id="rect15647"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="717.74"
+            x="-774.41"
+        />
+        <rect
+            id="rect15649"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="747.25"
+            x="745.42"
+        />
+        <rect
+            id="rect15651"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="748.02"
+            x="776.13"
+        />
+        <rect
+            id="rect15653"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="716.69"
+            x="-747.11"
+        />
+        <rect
+            id="rect15655"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="745.73"
+            x="-746.53"
+        />
+        <rect
+            id="rect15657"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="720.15"
+            x="775.09"
+        />
+        <rect
+            id="rect15659"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="720.15"
+            x="804.13"
+        />
+        <rect
+            id="rect15661"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="746.78"
+            x="-883.02"
+        />
+        <rect
+            id="rect15663"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="775.82"
+            x="-882.44"
+        />
+        <rect
+            id="rect15665"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="856.05"
+            x="804.34"
+        />
+        <rect
+            id="rect15667"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="775.19"
+            x="-855.91"
+        />
+        <rect
+            id="rect15669"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="804.23"
+            x="-855.33"
+        />
+        <rect
+            id="rect15671"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="693.03"
+            x="804.03"
+        />
+        <rect
+            id="rect15673"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="721.49"
+            x="805.49"
+        />
+        <rect
+            id="rect15675"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.009"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-833.96"
+            x="747.92"
+        />
+        <rect
+            id="rect15677"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.009"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-833.96"
+            x="775.6"
+        />
+        <rect
+            id="rect15679"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="721.14"
+            x="658.62"
+        />
+        <rect
+            id="rect15681"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="748.05"
+            x="659.24"
+        />
+        <rect
+            id="rect15683"
+            ry="21.009"
+            style="stroke-width:0;fill:url(#linearGradient15735)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-687.72"
+            x="774.48"
+        />
+        <rect
+            id="rect15685"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-715.33"
+            x="775.83"
+        />
+        <rect
+            id="rect15687"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.009"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-775.39"
+            x="692.82"
+        />
+        <rect
+            id="rect15689"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="21.009"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-746.35"
+            x="693.4"
+        />
+        <rect
+            id="rect15691"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(-.42736 -.90408 -.97568 -.21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-719.79"
+            x="-717.83"
+        />
+        <rect
+            id="rect15693"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(-.42736 -.90408 -.97568 -.21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-720.33"
+            x="-687.96"
+        />
+        <rect
+            id="rect15695"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="665.78"
+            x="659.45"
+        />
+        <rect
+            id="rect15697"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-804.64"
+            x="665.18"
+        />
+        <rect
+            id="rect15699"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-775.6"
+            x="665.76"
+        />
+        <rect
+            id="rect15701"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.42736 -.90408 -.97568 -.21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-692.15"
+            x="-747.08"
+        />
+        <rect
+            id="rect15703"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.42736 -.90408 -.97568 -.21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-692.69"
+            x="-717.21"
+        />
+        <rect
+            id="rect15705"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="828.4"
+            x="831.25"
+        />
+        <rect
+            id="rect15707"
+            ry="21.009"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(-.97568 -.21922 .42736 .90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="831.14"
+            x="-827.69"
+        />
+        <rect
+            id="rect15709"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="666.94"
+            x="831.77"
+        />
+        <rect
+            id="rect15711"
+            ry="19.467"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="693.85"
+            x="832.4"
+        />
+        <rect
+            id="rect15713"
+            ry="21.009"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            height="29.249"
+            width="27.103"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-860.87"
+            x="720.27"
+        />
+        <rect
+            id="rect15715"
+            style="stroke-width:0;fill:#000000"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="774.58"
+            x="832.19"
+        />
+        <rect
+            id="rect15717"
+            ry="19.467"
+            style="stroke-width:0;fill:#000000"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="776.12"
+            x="658.56"
+        />
+        <rect
+            id="rect15719"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.97568 .21922 -.42736 -.90408 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="12.08"
+            height="24.16"
+            width="27.183"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="-713.84"
+            x="720.85"
+        />
+        <path
+            id="path15721"
+            style="stroke:#000000;stroke-linecap:round;stroke-width:14.208;fill:none"
+            d="m1142.1 779.45 192.3 413.59"
+            inkscape:export-ydpi="19.980349"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            inkscape:export-xdpi="19.980349"
+        />
+        <rect
+            id="rect15723"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="693.07"
+            x="775.06"
+        />
+        <rect
+            id="rect15725"
+            ry="11.585"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="23.171"
+            width="29.441"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="854.14"
+            x="715.93"
+        />
+        <rect
+            id="rect15727"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="13.363"
+            height="27.43"
+            width="23.231"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="665.01"
+            x="805.88"
+        />
+        <rect
+            id="rect15729"
+            ry="10.731"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="22.168"
+            width="28.216"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="857.24"
+            x="833.31"
+        />
+        <rect
+            id="rect15731"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            ry="19.467"
+            height="27.103"
+            width="29.249"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="748.08"
+            x="833.6"
+        />
+        <rect
+            id="rect15733"
+            ry="12.141"
+            style="opacity:.60096;stroke-width:0;fill:#ffffff"
+            inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\automotive logos\chequered flag.png"
+            rx="0"
+            transform="matrix(.42736 .90408 .97568 .21922 0 0)"
+            height="24.283"
+            width="28.659"
+            inkscape:export-xdpi="19.980349"
+            inkscape:export-ydpi="19.980349"
+            y="854.81"
+            x="657.44"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >netalloy chequered flag</dc:title
+        >
+        <dc:date
+          >2010-04-07T09:56:54</dc:date
+        >
+        <dc:description
+          >Automotive Clipart from Netalloy</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/38767/netalloy-chequered-flag-by-netalloy</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >netalloy</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >automotive</rdf:li
+            >
+            <rdf:li
+              >chequered flag</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >motorsports</rdf:li
+            >
+            <rdf:li
+              >race</rdf:li
+            >
+            <rdf:li
+              >racing</rdf:li
+            >
+            <rdf:li
+              >rally</rdf:li
+            >
+            <rdf:li
+              >speed</rdf:li
+            >
+            <rdf:li
+              >sports2010</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
