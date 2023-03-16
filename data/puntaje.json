@@ -1,0 +1,44 @@
+{
+    "puntaje": [
+        {
+            "posicion": 1,
+            "puntos": 25
+        },
+        {
+            "posicion": 2,
+            "puntos": 18
+        },
+        {
+            "posicion": 3,
+            "puntos": 15
+        },
+        {
+            "posicion": 4,
+            "puntos": 12
+        },
+        {
+            "posicion": 5,
+            "puntos": 10
+        },
+        {
+            "posicion": 6,
+            "puntos": 8
+        },
+        {
+            "posicion": 7,
+            "puntos": 6
+        },
+        {
+            "posicion": 8,
+            "puntos": 4
+        },
+        {
+            "posicion": 9,
+            "puntos": 2
+        },
+        {
+            "posicion": 10,
+            "puntos": 1
+        }
+    ]
+}
