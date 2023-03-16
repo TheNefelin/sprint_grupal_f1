@@ -7,7 +7,7 @@ export async function leerArchivoCircuitos() {
     });
 
     return await JSON.parse(data);
-}
+};
 
 export async function leerArchivoEquipo() {
     const data = await fs.promises.readFile("./data/equipo.json", (err, data) => {
@@ -16,4 +16,9 @@ export async function leerArchivoEquipo() {
     });
 
     return await JSON.parse(data);
+};
+
+
+export async function iniciarCarrera() {
+    
 }

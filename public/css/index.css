@@ -46,7 +46,6 @@
     height: 2rem;
 }
 
-
 /* cars ---------------------------------------------------------- */
 .race-speedway {
     position: relative;
@@ -56,11 +55,47 @@
     position: absolute;
     height: 5rem;
     transform: rotate(-90deg);
-    top: calc(100px + var(--i));
+    top: calc(100px + 3rem * var(--i));
     left: 50px;
 }
 
-/* --------------------------------------------------------------- */
+/* calendario ---------------------------------------------------- */
+.calendario {
+    background-color: #181818;
+}
+
+.calendario-carrera {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0.2rem;
+    gap: 1rem;
+}
+
+.calendario-carrera:hover {
+    background-color: #666666;
+}
+
+.calendario-carrera span {
+    min-width: 10rem;
+    color: yellow;
+}
+
+.calendario-carrera button {
+    min-width: 10rem;
+}
+
+.calendario-carrera p {
+    min-width: 10rem;
+    background-color: rosybrown;
+    color: white;
+    margin: 0;
+} 
+
+.calendario-carrera div {
+    color: white;
+}
+
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */

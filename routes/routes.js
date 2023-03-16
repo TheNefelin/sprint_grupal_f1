@@ -21,6 +21,7 @@ myRouter.get("/carrera", (req, res) => {
 myRouter.get("/calendario", (req, res) => {
     func.leerArchivoCircuitos().then(data => {
         res.render("calendario", data);
+        console.log(data)
     });
 });
 

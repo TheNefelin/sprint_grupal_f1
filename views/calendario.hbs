@@ -1,3 +1,16 @@
 {{#> plantilla}}
-    Calendario
+    <div class="calendario">
+        {{#each carrera }}
+            <div class="calendario-carrera">
+                <img class="paises" src={{flag}}>
+                {{#if isActive}}
+                    <button value={{id}}>Ver Carrera</button>
+                {{else}}
+                    <span>Carrera Finalizada</span>
+                {{/if}}
+                <p>{{fecha}}</p>
+                <div>{{circuito}}</div>
+            </div>
+        {{/each}}
+    </div>
 {{/plantilla}}

@@ -1,6 +1,7 @@
 {
     "equipos": [
         {
+            "id": 1,
             "escuderia": "Alfa Romeo",
             "piloto1": "Valtteri Bottas",
             "piloto2": "Guanyu Zhou",
@@ -8,6 +9,7 @@
             "team": "/img/team/1alfaromeo.jpg"
         },
         {
+            "id": 2,
             "escuderia": "Alpine",
             "piloto1": "Esteban Ocon",
             "piloto2": "Pierre Gasly",
@@ -15,12 +17,14 @@
             "team": "/img/team/2alpine.jpeg"
         },
         {
+            "id": 3,
             "escuderia": "Alpha Tauri",
             "piloto1": "Nyck de Vries",
             "img": "/img/cars/car_03.svg",
             "team": "/img/team/3alphatauri.jpeg"
         },
         {
+            "id": 4,
             "escuderia": "Aston Martin",
             "piloto1": "Lance Stroll",
             "piloto2": "Fernando Alonso",
@@ -28,6 +32,7 @@
             "team": "/img/team/4astonmartin.png"
         },
         {
+            "id": 5,
             "escuderia": "Ferrari",
             "piloto1": "Charles Leclerc",
             "piloto2": "Carlos Sainz",
@@ -35,6 +40,7 @@
             "team": "/img/team/5ferrari.jpg"
         },
         {
+            "id": 6,
             "escuderia": "Haas",
             "piloto1": "Kevin Magnussen",
             "piloto2": "Nico Hulkenberg",
@@ -42,6 +48,7 @@
             "team": "/img/team/6haas.jpg"
         },
         {
+            "id": 7,
             "escuderia": "McLaren",
             "piloto1": "Lando Norris",
             "piloto2": "Oscar Piastri",
@@ -49,6 +56,7 @@
             "team": "/img/team/7maclaren.jpg"
         },
         {
+            "id": 8,
             "escuderia": "Mercedes",
             "piloto1": "Lewis Hamilton",
             "piloto2": "George Russell",
@@ -56,6 +64,7 @@
             "team": "/img/team/8mercedes.jpeg"
         },
         {
+            "id": 9,
             "escuderia": "Red Bull",
             "piloto1": "Max Verstappen",
             "piloto2": "Checo Pérez",
@@ -63,6 +72,7 @@
             "team": "/img/team/9redbull.jpeg"
         },
         {
+            "id": 10,
             "escuderia": "Williams",
             "piloto1": "Alex Albon",
             "piloto2": "Logan Sargeant",
