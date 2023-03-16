@@ -6,4 +6,8 @@ myRouter.get("/", (req, res) => {
     res.send("PRUEBA");
 });
 
+myRouter.get("/", (req,res) => {
+    
+})
+
 export default myRouter;
