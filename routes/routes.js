@@ -10,7 +10,7 @@ myRouter.get("/", (req, res) => {
 });
 
 myRouter.get("/carrera", (req, res) => {
-    func.leerArchivoCircuitos().then(data => {
+    func.leerArchivoEquipo().then(data => {
         res.render("carrera", data);
     });
 });
