@@ -31,37 +31,43 @@
             "escuderia": "Ferrari",
             "piloto1": "Charles Leclerc",
             "piloto2": "Carlos Sainz",
-            "img": "/img/cars/car_05.svg"
+            "img": "/img/cars/car_05.svg",
+            "team": "/img/team/5ferrari.jpg"
         },
         {
             "escuderia": "Haas",
             "piloto1": "Kevin Magnussen",
             "piloto2": "Nico Hulkenberg",
-            "img": "/img/cars/car_01.svg"
+            "img": "/img/cars/car_01.svg",
+            "team": "/img/team/6haas.jpg"
         },
         {
             "escuderia": "McLaren",
             "piloto1": "Lando Norris",
             "piloto2": "Oscar Piastri",
-            "img": "/img/cars/car_02.svg"
+            "img": "/img/cars/car_02.svg",
+            "team": "/img/team/7maclaren.jpg"
         },
         {
             "escuderia": "Mercedes",
             "piloto1": "Lewis Hamilton",
             "piloto2": "George Russell",
-            "img": "/img/cars/car_03.svg"
+            "img": "/img/cars/car_03.svg",
+            "team": "/img/team/8mercedes.jpeg"
         },
         {
             "escuderia": "Red Bull",
             "piloto1": "Max Verstappen",
             "piloto2": "Checo Pérez",
-            "img": "/img/cars/car_04.svg"
+            "img": "/img/cars/car_04.svg",
+            "team": "/img/team/9redbull.jpeg"
         },
         {
             "escuderia": "Williams",
             "piloto1": "Alex Albon",
             "piloto2": "Logan Sargeant",
-            "img": "/img/cars/car_05.svg"
+            "img": "/img/cars/car_05.svg",
+            "team": "/img/team/10williams.jpeg"
         }
     ]
 }
