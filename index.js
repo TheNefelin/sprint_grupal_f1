@@ -12,4 +12,4 @@ app.listen(3000);
 app.set("view engine", "hbs");
 hbs.registerPartials(join(_dirname, "/views/partials"));
 app.use(express.static("public"));
-app.use(routes)
+app.use(routes);
