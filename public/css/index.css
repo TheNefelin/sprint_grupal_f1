@@ -11,7 +11,6 @@
 /* NAVBAR */
 .navbar {
     background-color: var(--clr-black);
-    color: var(--clr-white);
     display: flex;
     justify-content: space-between;
     font-family: var(--font-Sans);
@@ -23,9 +22,11 @@
 }
 .navbar-der, .navbar-izq {
     display: flex;
+    color: var(--clr-white);
     align-items: center;
     gap: .6rem;
     margin-right: 1rem;
+    text-decoration: none;
 }
 .navbar__btn:hover {
     color: var(--clr-white-act);
