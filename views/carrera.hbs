@@ -1,7 +1,11 @@
 {{#> plantilla}}
     <div class="race-speedway"></div>
         {{#each equipos }}
-            <img style= "--i:{{@key}};" class="race-car" src={{img}}>
+            <div class="race">
+                <img style= "--i:{{@key}};"  class="race-team" src={{team}}>
+                <img style= "--i:{{@key}};"  class="race-car" src={{img}}>
+            </div>
+            {{!-- <img style= "--i:{{@key}};" class="race-car" src={{img}}> --}}
         {{/each}}
     </div>
 {{/plantilla}}

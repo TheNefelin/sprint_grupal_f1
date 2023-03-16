@@ -4,9 +4,6 @@ import * as func from "../utils/funciones.js";
 const myRouter = Router();
 
 myRouter.get("/", (req, res) => {
-    // func.leerArchivoCircuitos().then(data => {
-    //     res.render("main", data);
-    // });
     func.leerArchivoEquipo().then(data => {
         res.render("main", data);
     });

@@ -48,15 +48,25 @@
 
 /* cars ---------------------------------------------------------- */
 .race-speedway {
+    background-color: #ffffff;
+}
+
+.race {
     position: relative;
+}
+
+.race-team {
+    position: absolute;
+    height: 3rem;
+    top: calc(80px + 3rem * var(--i));
 }
 
 .race-car {
     position: absolute;
     height: 5rem;
     transform: rotate(-90deg);
-    top: calc(100px + 3rem * var(--i));
-    left: 50px;
+    top: calc(65px + 3rem * var(--i));
+    left: 8rem;
 }
 
 /* calendario ---------------------------------------------------- */

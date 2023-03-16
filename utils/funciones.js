@@ -18,6 +18,9 @@ export async function leerArchivoEquipo() {
     return await JSON.parse(data);
 };
 
+export async function prepararCarrera() {
+    
+}
 
 export async function iniciarCarrera() {
     

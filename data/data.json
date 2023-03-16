@@ -1,0 +1,295 @@
+{
+    "carrera": [
+        {
+            "id": 1,
+            "fecha": "3 - 5 de mar.",
+            "circuito": "Gulf Air Bahrain GP, Bahrain International Circuit",
+            "flag": "/img/flags/1Bahrain.png",
+            "isActive": false
+        },
+        {
+            "id": 2,
+            "fecha": "17 - 19 de mar.",
+            "circuito": "STC Saudi Arabian GP, Jeddah Street Circuit",
+            "flag": "/img/flags/2ArabiaSaudita.png",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "fecha": "31 mar. - 2 abr.",
+            "circuito": "Rolex Australian GP, Circuito Grand Prix Melbourne",
+            "flag": "/img/flags/3Australia.png",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "fecha": "28 - 30 de abr.",
+            "circuito": "GP de Azerbaiyán, Baku City Circuit",
+            "flag": "/img/flags/4Azerbaiyan.png",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "fecha": "5 - 7 de may.",
+            "circuito": "Crypto.com Miami GP, Miami International Autodrome",
+            "flag": "/img/flags/5Miami.png",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "fecha": "19 - 21 de may.",
+            "circuito": "Made in Italy Emilia Romagna GP, Autodromo Enzo e Dino Ferrari",
+            "flag": "/img/flags/6Italia.png",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "fecha": "26 - 28 de may.",
+            "circuito": "GP de Mónaco, Circuit de Monaco",
+            "flag": "/img/flags/7Monaco.png",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "fecha": "2 - 4 de jun.",
+            "circuito": "AWS Spanish GP, Circuit de Barcelona-Catalunya",
+            "flag": "/img/flags/8España.png",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "fecha": "16 - 18 de jun.",
+            "circuito": "Pirelli Canada GP, Circuit Gilles-Villeneuve",
+            "flag": "/img/flags/9Canada.png",
+            "isActive": true
+        },
+        {
+            "id": 10,
+            "fecha": "30 jun. - 2 jul.",
+            "circuito": "GP de Austria, Red Bull Ring",
+            "flag": "/img/flags/10Austria.png",
+            "isActive": true
+        },
+        {
+            "id": 11,
+            "fecha": "7 - 9 de jul.",
+            "circuito": "Aramco British GP, Silverstone Circuit",
+            "flag": "/img/flags/11ReinoUnido.png",
+            "isActive": true
+        },
+        {
+            "id": 12,
+            "fecha": "21 - 23 de jul.",
+            "circuito": "GP de Hungría, Hungaroring",
+            "flag": "/img/flags/12Hungria.png",
+            "isActive": true
+        },
+        {
+            "id": 13,
+            "fecha": "28 - 30 de jul.",
+            "circuito": "GP de Bélgica, Circuit de Spa-Francorchamps",
+            "flag": "/img/flags/13Belgica.png",
+            "isActive": true
+        },
+        {
+            "id": 14,
+            "fecha": "25 - 27 de ago.",
+            "circuito": "Heineken Dutch GP, Circuit Park Zandvoort",
+            "flag": "/img/flags/14Holanda.png",
+            "isActive": true
+        },
+        {
+            "id": 15,
+            "fecha": "1 - 3 de sep.",
+            "circuito": "Pirelli Italian GP, Autodromo Nazionale Monza",
+            "flag": "/img/flags/15Italia.png",
+            "isActive": true
+        },
+        {
+            "id": 16,
+            "fecha": "15 - 17 de sep.",
+            "circuito": "Singapore Airlines Singapore GP, Marina Bay Street Circuit",
+            "flag": "/img/flags/16Singapore.png",
+            "isActive": true
+        },
+        {
+            "id": 17,
+            "fecha": "22 - 24 de sep.",
+            "circuito": "Lenovo Japanese GP, Suzuka International Racing Course",
+            "flag": "/img/flags/17Japan.png",
+            "isActive": true
+        },
+        {
+            "id": 18,
+            "fecha": "6 - 8 de oct.",
+            "circuito": "Qatar GP, Losail International Circuit",
+            "flag": "/img/flags/18Qatar.png",
+            "isActive": true
+        },
+        {
+            "id": 19,
+            "fecha": "20 - 22 de oct.",
+            "circuito": "Lenovo United States GP, Circuit of the Americas",
+            "flag": "/img/flags/19EEUU.png",
+            "isActive": true
+        },
+        {
+            "id": 20,
+            "fecha": "27 - 29 de oct.",
+            "circuito": "Mexico GP, Autodromo Hermanos Rodriguez",
+            "flag": "/img/flags/20Mexico.png",
+            "isActive": true
+        },
+        {
+            "id": 21,
+            "fecha": "3 - 5 de nov.",
+            "circuito": "Rolex Brazil GP, Autodromo Jose Carlos Pace",
+            "flag": "/img/flags/21Brazil.png",
+            "isActive": true
+        },
+        {
+            "id": 22,
+            "fecha": "17 - 19 de nov.",
+            "circuito": "Heineken Las Vegas GP, Las Vegas Street Circuit",
+            "flag": "/img/flags/22LasVegas.png",
+            "isActive": true
+        },
+        {
+            "id": 23,
+            "fecha": "24 - 26 de nov.",
+            "circuito": "Etihad Airways Abu Dhabi GP, Yas Marina Circuit",
+            "flag": "/img/flags/23AbuDhabi.png",
+            "isActive": true
+        }
+    ]
+}
+
+{
+    "equipos": [
+        {
+            "id": 1,
+            "escuderia": "Alfa Romeo",
+            "piloto1": "Valtteri Bottas",
+            "piloto2": "Guanyu Zhou",
+            "img": "/img/cars/car_01.svg",
+            "team": "/img/team/1alfaromeo.jpg"
+        },
+        {
+            "id": 2,
+            "escuderia": "Alpine",
+            "piloto1": "Esteban Ocon",
+            "piloto2": "Pierre Gasly",
+            "img": "/img/cars/car_02.svg",
+            "team": "/img/team/2alpine.jpeg"
+        },
+        {
+            "id": 3,
+            "escuderia": "Alpha Tauri",
+            "piloto1": "Nyck de Vries",
+            "img": "/img/cars/car_03.svg",
+            "team": "/img/team/3alphatauri.jpeg"
+        },
+        {
+            "id": 4,
+            "escuderia": "Aston Martin",
+            "piloto1": "Lance Stroll",
+            "piloto2": "Fernando Alonso",
+            "img": "/img/cars/car_04.svg",
+            "team": "/img/team/4astonmartin.png"
+        },
+        {
+            "id": 5,
+            "escuderia": "Ferrari",
+            "piloto1": "Charles Leclerc",
+            "piloto2": "Carlos Sainz",
+            "img": "/img/cars/car_05.svg",
+            "team": "/img/team/5ferrari.jpg"
+        },
+        {
+            "id": 6,
+            "escuderia": "Haas",
+            "piloto1": "Kevin Magnussen",
+            "piloto2": "Nico Hulkenberg",
+            "img": "/img/cars/car_01.svg",
+            "team": "/img/team/6haas.jpg"
+        },
+        {
+            "id": 7,
+            "escuderia": "McLaren",
+            "piloto1": "Lando Norris",
+            "piloto2": "Oscar Piastri",
+            "img": "/img/cars/car_02.svg",
+            "team": "/img/team/7maclaren.jpg"
+        },
+        {
+            "id": 8,
+            "escuderia": "Mercedes",
+            "piloto1": "Lewis Hamilton",
+            "piloto2": "George Russell",
+            "img": "/img/cars/car_03.svg",
+            "team": "/img/team/8mercedes.jpeg"
+        },
+        {
+            "id": 9,
+            "escuderia": "Red Bull",
+            "piloto1": "Max Verstappen",
+            "piloto2": "Checo Pérez",
+            "img": "/img/cars/car_04.svg",
+            "team": "/img/team/9redbull.jpeg"
+        },
+        {
+            "id": 10,
+            "escuderia": "Williams",
+            "piloto1": "Alex Albon",
+            "piloto2": "Logan Sargeant",
+            "img": "/img/cars/car_05.svg",
+            "team": "/img/team/10williams.jpeg"
+        }
+    ]
+}
+
+
+{
+    "puntaje": [
+        {
+            "posicion": 1,
+            "puntos": 25
+        },
+        {
+            "posicion": 2,
+            "puntos": 18
+        },
+        {
+            "posicion": 3,
+            "puntos": 15
+        },
+        {
+            "posicion": 4,
+            "puntos": 12
+        },
+        {
+            "posicion": 5,
+            "puntos": 10
+        },
+        {
+            "posicion": 6,
+            "puntos": 8
+        },
+        {
+            "posicion": 7,
+            "puntos": 6
+        },
+        {
+            "posicion": 8,
+            "puntos": 4
+        },
+        {
+            "posicion": 9,
+            "puntos": 2
+        },
+        {
+            "posicion": 10,
+            "puntos": 1
+        }
+    ]
+}
