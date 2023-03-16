@@ -3,7 +3,7 @@ const myRouter = Router();
 
 
 myRouter.get("/", (req, res) => {
-    res.send("PRUEBA");
+    res.render("main");
 });
 
 export default myRouter;
