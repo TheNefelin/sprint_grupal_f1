@@ -87,7 +87,6 @@ export async function prepararCarrera(idCarrera) {
         };
     })
 
-    console.log(circuito.circuito)
     return piloto;
 
     // if (circuito.isActive) {
@@ -113,6 +112,7 @@ export async function tablaCarrera() {
     equipo.equipos.forEach(e => {
         arrTablaCarrera.equipo.push({img: e.team});
     });
+    
     return arrTablaCarrera;
 }
 
