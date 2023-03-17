@@ -19,15 +19,9 @@ myRouter.get("/calendario", (req, res) => {
 myRouter.get("/carrera/:id", (req, res) => {
     if (!isNaN(req.params.id)) {
         func.prepararCarrera(parseInt(req.params.id)).then(data => {
-            // console.log(data)
+            res.render("carrera", data);
         });
     };
-
-
-
-    func.leerArchivoEquipo().then(data => {
-        res.render("carrera", data);
-    });
 });
 
 export default myRouter;

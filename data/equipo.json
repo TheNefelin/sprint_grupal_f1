@@ -24,6 +24,7 @@
             "id": 3,
             "escuderia": "Alpha Tauri",
             "piloto1": "Nyck de Vries",
+            "piloto2": "Yuki Tsunoda",
             "isP1": true,
             "isP2": true,
             "img": "/img/cars/car_03.svg",
