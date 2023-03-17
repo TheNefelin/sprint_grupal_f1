@@ -45,7 +45,7 @@ export async function iniTablaPosiciones() {
     const circuito = await leerArchivoCircuitos();
     const equipo = await leerArchivoEquipo();
 
-    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", arrCarrera: []});
+    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
 
     // columnas de banderas
     circuito.carrera.forEach(e => {
@@ -55,8 +55,8 @@ export async function iniTablaPosiciones() {
 
      // fila de pilotos
     equipo.equipos.forEach(e => {    
-        data.tabla.push({idEsc: e.id, nombre: e.piloto1, img: e.team, arrCarrera: arrCarrera});
-        data.tabla.push({idEsc: e.id, nombre: e.piloto2, img: e.team, arrCarrera: arrCarrera});
+        data.tabla.push({idEsc: e.id, nombre: e.piloto1, img: e.team, total: 0, arrCarrera: arrCarrera});
+        data.tabla.push({idEsc: e.id, nombre: e.piloto2, img: e.team, total: 0, arrCarrera: arrCarrera});
     });
 
     await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {

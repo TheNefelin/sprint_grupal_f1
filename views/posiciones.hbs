@@ -2,41 +2,25 @@
     <table class="tablaClasificacion">
         <tr>
             <th>Posicion</th>
+            <th>Escudo</th>
             <th>Piloto</th>
-            {{#each bandera }}
+            <th>Total</th>
+            {{#each bandera}}
                 <th><img class="tablaClasificacion__paises" src={{puntaje}}></th>
             {{/each}}
         </tr>
-        
-    </table>
-
-    {{!-- <table class="tablaClasificacion">
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th>T. Puntos</th>
-            <th>
-                {{#each circuito }}
-                    <img class="tablaClasificacion__paises" src={{img}}>
-                {{/each}}
-            </th>
-        </tr>
-        {{#each equipo}}
+        {{#each data.tabla}}
+            {{#if idEsc}}
             <tr>
-                <td class="tablaClasificaciones__Nclas">
-                    N°
-                </td>
-                <td>
-                    Pilotos
-                </td>
-                <td>
-                    <img class="tablaClasificacion__teams" src={{img}}>
-                </td>
-                <td class="tablaClasificaciones__TPuntos puntos">
-                    -
-                </td>
+                <th>{{@key}}</th>
+                <th><img class="tablaClasificacion__paises" src={{img}}></th>
+                <th>{{nombre}}</th>
+                <th>{{total}}</th>
+                {{#each arrCarrera}}
+                    <th>{{puntaje}}</th>
+                {{/each}}
             </tr>
+            {{/if}}
         {{/each}}
-    </table> --}}
+    </table>
 {{/plantilla}}
