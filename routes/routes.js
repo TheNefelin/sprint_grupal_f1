@@ -17,10 +17,14 @@ myRouter.get("/calendario", (req, res) => {
 });
 
 myRouter.get("/posiciones", (req, res) => {
-    func.tablaCarrera().then(data => {
-        console.log(data)
-        res.render("posiciones", data);
+    func.tablaPosiciones().then(data => {
+        console.log(data.tabla[0].arrCarrera)
+        res.render("posiciones", {bandera: data.tabla[0].arrCarrera});
     });
+    // func.tablaCarrera().then(data => {
+    //     console.log(data)
+    //     res.render("posiciones", data);
+    // });
 });
 
 myRouter.get("/carrera/:id", (req, res) => {

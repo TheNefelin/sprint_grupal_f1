@@ -18,42 +18,53 @@ export async function leerArchivoEquipo() {
     return await JSON.parse(data);
 };
 
-export async function iniTablaPosiciones() {
+export async function tablaPosiciones() {
     try {
-        const stats = await fs.promises.readFile("./data/tabla.json");
-        console.log(true)
-    } catch (err) {
-        const tabla = [];
-        const arrCarrera = [];
-
-        const circuito = await leerArchivoCircuitos();
-        const equipo = await leerArchivoEquipo();
-        
-        tabla.push({idEsc: 0, nombre: "banderas", img: "", arrCarrera: []});
-
-        // columnas de banderas
-        circuito.carrera.forEach(e => {
-            tabla[0].arrCarrera.push({puntaje: e.flag});
-            arrCarrera.push({puntaje: "-"});
+        const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
+            if (err) throw err 
+            return data;
         });
 
-         // fila de pilotos
-        equipo.equipos.forEach(e => {    
-            tabla.push({idEsc: e.id, nombre: e.piloto1, img: e.team, arrCarrera: arrCarrera});
-            tabla.push({idEsc: e.id, nombre: e.piloto2, img: e.team, arrCarrera: arrCarrera});
+        return await JSON.parse(data);
+    } catch {
+        await iniTablaPosiciones();
+
+        const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
+            if (err) throw err 
+            return data;
         });
 
-        console.log(tabla)
-
-        fs.writeFile('./data/tabla.json', JSON.stringify(tabla), err => {
-            if (err) throw err;
-        });
+        return await JSON.parse(data);
     };
 };
 
-export async function prepararCarrera(idCarrera) {
-    await iniTablaPosiciones();
+export async function iniTablaPosiciones() {
+    const data = {tabla: []};
+    const arrCarrera = [];
 
+    const circuito = await leerArchivoCircuitos();
+    const equipo = await leerArchivoEquipo();
+
+    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", arrCarrera: []});
+
+    // columnas de banderas
+    circuito.carrera.forEach(e => {
+        data.tabla[0].arrCarrera.push({puntaje: e.flag});
+        arrCarrera.push({puntaje: "-"});
+    });
+
+     // fila de pilotos
+    equipo.equipos.forEach(e => {    
+        data.tabla.push({idEsc: e.id, nombre: e.piloto1, img: e.team, arrCarrera: arrCarrera});
+        data.tabla.push({idEsc: e.id, nombre: e.piloto2, img: e.team, arrCarrera: arrCarrera});
+    });
+
+    await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {
+        if (err) throw err;
+    });
+};
+
+export async function prepararCarrera(idCarrera) {
     let circuito = await leerArchivoCircuitos();
     const equipo = await leerArchivoEquipo();
 

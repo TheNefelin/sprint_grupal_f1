@@ -1,6 +1,17 @@
 {{#> plantilla}}
     <table class="tablaClasificacion">
         <tr>
+            <th>Posicion</th>
+            <th>Piloto</th>
+            {{#each bandera }}
+                <th><img class="tablaClasificacion__paises" src={{puntaje}}></th>
+            {{/each}}
+        </tr>
+        
+    </table>
+
+    {{!-- <table class="tablaClasificacion">
+        <tr>
             <th></th>
             <th></th>
             <th></th>
@@ -24,5 +35,5 @@
                 </td>
             </tr>
         {{/each}}
-    </table>
+    </table> --}}
 {{/plantilla}}
