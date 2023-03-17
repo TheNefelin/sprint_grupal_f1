@@ -40,4 +40,9 @@ myRouter.get("/carrera/:id", (req, res) => {
     };
 });
 
+myRouter.all("*", (req,res) => {
+    res.render("error");
+})
+
+
 export default myRouter;
