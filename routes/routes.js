@@ -16,6 +16,13 @@ myRouter.get("/calendario", (req, res) => {
     });
 });
 
+myRouter.get("/posiciones", (req, res) => {
+    func.tablaCarrera().then(data => {
+        console.log(data)
+        res.render("posiciones", data);
+    });
+});
+
 myRouter.get("/carrera/:id", (req, res) => {
     if (!isNaN(req.params.id)) {
         func.prepararCarrera(parseInt(req.params.id)).then(data => {

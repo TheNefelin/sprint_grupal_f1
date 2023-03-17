@@ -1,3 +1,28 @@
 {{#> plantilla}}
-    Posiciones
+    <table class="tablaClasificacion">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>T. Puntos</th>
+            <th>
+                {{#each circuito }}
+                    <img class="tablaClasificacion__paises" src={{img}}>
+                {{/each}}
+            </th>
+        </tr>
+        {{#each equipo}}
+            <tr>
+                <td class="tablaClasificaciones__puntos">
+                    N°
+                </td>
+                <td>
+                    Pilotos
+                </td>
+                <td>
+                    <img class="tablaClasificacion__teams" src={{img}}>
+                </td>
+            </tr>
+        {{/each}}
+    </table>
 {{/plantilla}}
