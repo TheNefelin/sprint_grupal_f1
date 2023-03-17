@@ -1,13 +1,19 @@
 {{#> plantilla}}
-    <div class="clasificacionCarrera">
-        {{#each circuito }}
-            <img class="paises" src={{img}}>
-        {{/each}}
-    </div>
-
-    <div class="clasificacionCarrera">
+    <table>
+        <tr>
+            <th></th>
+            <th>
+                {{#each circuito }}
+                    <img class="paises" src={{img}}>
+                {{/each}}
+            </th>
+        </tr>
         {{#each equipo }}
-            <img class="paises" src={{img}}>
+            <tr>
+                <td>
+                    <img class="paises" src={{img}}>
+                </td>
+            </tr>
         {{/each}}
-    </div>
+    </table>
 {{/plantilla}}
