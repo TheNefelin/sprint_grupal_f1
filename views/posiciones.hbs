@@ -2,7 +2,9 @@
     <table class="tablaClasificacion">
         <tr>
             <th>Posicion</th>
+            <th>Escudo</th>
             <th>Piloto</th>
+            <th>Total</th>
             {{#each bandera}}
                 <th><img class="tablaClasificacion__paises" src={{puntaje}}></th>
             {{/each}}
@@ -10,8 +12,10 @@
         {{#each data.tabla}}
             {{#if idEsc}}
             <tr>
-                <th class="tablaClasificaciones__Nclas">{{@key }}</th>
+                <th>{{@key}}</th>
+                <th><img class="tablaClasificacion__paises" src={{img}}></th>
                 <th>{{nombre}}</th>
+                <th>{{total}}</th>
                 {{#each arrCarrera}}
                     <th>{{puntaje}}</th>
                 {{/each}}

@@ -5,7 +5,10 @@ const myRouter = Router();
 
 myRouter.get("/", (req, res) => {
     func.tablaCarrera().then(data => {
+<<<<<<< HEAD
         console.log(data);
+=======
+>>>>>>> 8dc43e2c935c709105960543c7bcc386da3882f0
         res.render("main", data);
     });
 });
@@ -18,13 +21,8 @@ myRouter.get("/calendario", (req, res) => {
 
 myRouter.get("/posiciones", (req, res) => {
     func.tablaPosiciones().then(data => {
-        console.log({bandera: data.tabla[0].arrCarrera, data})
         res.render("posiciones", {bandera: data.tabla[0].arrCarrera, data});
     });
-    // func.tablaCarrera().then(data => {
-    //     console.log(data)
-    //     res.render("posiciones", data);
-    // });
 });
 
 myRouter.get("/carrera/:id", (req, res) => {

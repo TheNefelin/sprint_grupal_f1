@@ -63,7 +63,7 @@
 /* cars ---------------------------------------------------------- */
 .race-speedway {
     background-color: #ffffff;
-    padding-bottom: 3rem;
+    height: 150vh;
 }
 
 .race {
@@ -73,14 +73,14 @@
 .race-team {
     position: absolute;
     height: 3rem;
-    top: calc(80px + 3rem * var(--i));
+    top: calc(60px + 3rem * var(--i));
 }
 
 .race-car {
     position: absolute;
     height: 5rem;
     transform: rotate(-90deg);
-    top: calc(65px + 3rem * var(--i));
+    top: calc(45px + 3rem * var(--i));
     left: 8rem;
 }
 
@@ -132,6 +132,11 @@
 
 /* FOOTER */
 footer {
-    position:fixed;
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
