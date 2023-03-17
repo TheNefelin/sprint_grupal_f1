@@ -18,8 +18,8 @@ myRouter.get("/calendario", (req, res) => {
 
 myRouter.get("/posiciones", (req, res) => {
     func.tablaPosiciones().then(data => {
-        console.log(data.tabla[0].arrCarrera)
-        res.render("posiciones", {bandera: data.tabla[0].arrCarrera});
+        console.log({bandera: data.tabla[0].arrCarrera, data})
+        res.render("posiciones", {bandera: data.tabla[0].arrCarrera, data});
     });
     // func.tablaCarrera().then(data => {
     //     console.log(data)

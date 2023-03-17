@@ -3,11 +3,21 @@
         <tr>
             <th>Posicion</th>
             <th>Piloto</th>
-            {{#each bandera }}
+            {{#each bandera}}
                 <th><img class="tablaClasificacion__paises" src={{puntaje}}></th>
             {{/each}}
         </tr>
-        
+        {{#each data.tabla}}
+            {{#if idEsc}}
+            <tr>
+                <th>{{@key}}</th>
+                <th>{{nombre}}</th>
+                {{#each arrCarrera}}
+                    <th>{{puntaje}}</th>
+                {{/each}}
+            </tr>
+            {{/if}}
+        {{/each}}
     </table>
 
     {{!-- <table class="tablaClasificacion">
