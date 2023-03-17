@@ -1,10 +1,10 @@
 {{#> plantilla}}
-    <div class="calendario">
+    <form action="/carrera" method="post" class="calendario">
         {{#each carrera }}
             <div class="calendario-carrera">
                 <img class="paises" src={{flag}}>
                 {{#if isActive}}
-                    <button value={{id}}>Ver Carrera</button>
+                    <a href="/carrera/{{id}}">Ver Carrera</a>
                 {{else}}
                     <span>Carrera Finalizada</span>
                 {{/if}}
@@ -12,5 +12,5 @@
                 <div>{{circuito}}</div>
             </div>
         {{/each}}
-    </div>
+    </form>
 {{/plantilla}}
