@@ -18,6 +18,15 @@ export async function leerArchivoEquipo() {
     return await JSON.parse(data);
 };
 
+export async function leerArchivoEstado() {
+    const data = await fs.promises.readFile("./data/estados.json", (err, data) => {
+        if (err) throw err 
+        return data
+    });
+
+    return await JSON.parse(data);
+};
+
 export async function tablaPosiciones() {
     try {
         const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
@@ -75,18 +84,19 @@ export async function prepararCarrera(idCarrera) {
 
     equipo.equipos.forEach(e => {       
         if (e.isP1) {
-            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto1, car: e.img, team: e.team});
+            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto1, car: e.img, team: e.team, dist: 0, distT: 0});
         } else {
-            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto1, car: "", team: e.team});
+            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto1, car: "", team: e.team, dist: 0, distT: 0});
         };
 
         if (e.isP2) {
-            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto2, car: e.img, team: e.team});
+            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto2, car: e.img, team: e.team, dist: 0, distT: 0});
         } else {
-            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto2, car: "", team: e.team});
+            piloto.pilotos.push({idCircuito: circuito.id, idEscuderia: e.id, piloto: e.piloto2, car: "", team: e.team, dist: 0, distT: 0});
         };
     })
 
+    await crearSimulacion(piloto);
     return piloto;
 
     // if (circuito.isActive) {
@@ -96,8 +106,46 @@ export async function prepararCarrera(idCarrera) {
     // }
 };
 
-export async function iniciarCarrera() {
-    
+async function crearSimulacion(piloto) {
+    const simulacion = {idCircuito: 0, sim: []};
+    const estados =  await leerArchivoEstado();
+
+    let estado = true;
+    let z = 0;
+
+    while (estado) {
+        piloto.pilotos.forEach(e => {
+            const probabilidad = randomprob(estados.estado);
+            e.dist = probabilidad.puntuacion;
+            e.distT += e.dist;
+
+            simulacion.sim.push(e);
+        });
+
+        z +=1
+        if (z > 5) {
+            estado = false;
+        };
+    };
+
+    await fs.promises.writeFile('./data/simulacion.json', JSON.stringify(simulacion), err => {
+        if (err) throw err;
+    });
+
+    console.log(simulacion);
+}
+
+async function reproducirSimulacion(pilotos) {
+
+}
+
+export async function iniciarCarrera(estados) {
+ 
+    for (let i=0; i < 10; i++) {
+        const obj = randomprob(estados.estado);
+        // console.log(obj)
+    }
+    // randomprob(arr); 
 }
 
 export async function tablaCarrera() {
@@ -143,7 +191,6 @@ function myRand(arr, freq, n) {
 function randomprob(probj) {
     let arr = [];
     let freq = [];
-    let i;
     let resultado = '';
 
     probj.forEach(element => {

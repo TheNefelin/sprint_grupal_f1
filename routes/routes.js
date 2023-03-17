@@ -23,9 +23,20 @@ myRouter.get("/posiciones", (req, res) => {
 
 myRouter.get("/carrera/:id", (req, res) => {
     if (!isNaN(req.params.id)) {
-        func.prepararCarrera(parseInt(req.params.id)).then(data => {
-            res.render("carrera", {data: data});
-        });
+        // preparar carrera o iniciar carrera
+        if (true) {
+            func.prepararCarrera(parseInt(req.params.id)).then(pilotos => {
+                res.render("carrera", {data: pilotos});
+            });
+        } else {
+            func.leerArchivoEstado().then(dt => {
+                func.iniciarCarrera(dt).then(simulacion => {
+
+                });
+            });
+            // await iniciarCarrera(ini)
+            res.render("carrera", {data: pilotos});
+        }
     };
 });
 
