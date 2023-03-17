@@ -33,18 +33,20 @@
 }
 
 /* CUADRO CLASIFICACIONES CARRERA */
-.clasificacionCarrera {
-    display: flex;
-    justify-content: end;
+.tablaClasificacion {
+    justify-content: flex;
     border: solid 1px var(--clr-black);
     margin: 1rem 5rem 1rem 5rem;
     padding: .5rem;
     gap: .2rem;
 }
-
-.paises {
+.tablaClasificacion__paises, .tablaClasificacion__teams {
     height: 2rem;
 }
+.tablaClasificaciones__puntos {
+    background-color: var(--clr-white-act);
+}
+
 
 /* cars ---------------------------------------------------------- */
 .race-speedway {

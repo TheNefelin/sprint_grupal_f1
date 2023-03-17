@@ -100,8 +100,7 @@ export async function tablaCarrera() {
     });
 
     equipo.equipos.forEach(e => {
-        arrTablaCarrera.equipo.push({img: e.team})
+        arrTablaCarrera.equipo.push({img: e.team});
     });
-
     return arrTablaCarrera;
 }
