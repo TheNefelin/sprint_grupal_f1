@@ -24,7 +24,7 @@ myRouter.get("/posiciones", (req, res) => {
 myRouter.get("/carrera/:id", (req, res) => {
     if (!isNaN(req.params.id)) {
         func.prepararCarrera(parseInt(req.params.id)).then(data => {
-            res.render("carrera", data);
+            res.render("carrera", {data: data});
         });
     };
 });
