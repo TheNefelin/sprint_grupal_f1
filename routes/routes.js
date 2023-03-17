@@ -5,10 +5,6 @@ const myRouter = Router();
 
 myRouter.get("/", (req, res) => {
     func.tablaCarrera().then(data => {
-<<<<<<< HEAD
-        console.log(data);
-=======
->>>>>>> 8dc43e2c935c709105960543c7bcc386da3882f0
         res.render("main", data);
     });
 });
