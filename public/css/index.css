@@ -63,6 +63,7 @@
 /* cars ---------------------------------------------------------- */
 .race-speedway {
     background-color: #ffffff;
+    padding-bottom: 3rem;
 }
 
 .race {
@@ -131,5 +132,6 @@
 
 /* FOOTER */
 footer {
-    text-align: center;
+    position:fixed;
+    bottom: 0;
 }

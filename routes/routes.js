@@ -5,7 +5,7 @@ const myRouter = Router();
 
 myRouter.get("/", (req, res) => {
     func.tablaCarrera().then(data => {
-        console.log(data)
+        console.log(data);
         res.render("main", data);
     });
 });
