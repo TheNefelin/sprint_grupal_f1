@@ -1,0 +1,44 @@
+[
+    {
+    "id": 0,
+    "situacion": "Accidente sin muerte",
+    "prob": 4,
+    "puntuacion": 0,
+    "vivo": true
+    },
+    {
+    "id": 1,
+    "situacion": "Accidente con muerte",
+    "prob": 1,
+    "puntuacion": 0,
+    "vivo": false
+    },
+    {
+    "id": 2,
+    "situacion": "Abandono por problemas tecnicos",
+    "prob": 10,
+    "puntuacion": 0,
+    "vivo": true
+    },
+    {
+    "id": 3,
+    "situacion": "Avance lento",
+    "prob": 25,
+    "puntuacion": 1,
+    "vivo": true
+    },
+    {
+    "id": 4,
+    "situacion": "Avance regular",
+    "prob": 40,
+    "puntuacion": 2,
+    "vivo": true
+    },
+    {
+    "id": 5,
+    "situacion": "Avance rapido",
+    "prob": 20,
+    "puntuacion": 3,
+    "vivo": true
+    }
+]

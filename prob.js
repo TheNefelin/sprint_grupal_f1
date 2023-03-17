@@ -1,6 +1,3 @@
-import * as func from "./utils/funciones.js";
-import * as fs from "fs"
-
 function findCeil(arr, r, l, h) {
     let mid;
     while (l < h) {
@@ -22,16 +19,60 @@ function myRand(arr, freq, n) {
     return arr[indexc];
 }
 
-let arr = ["Termino", "Accidente con resultado de muerte","Falla en Vehiculo"];
-let freq = [79,1,20];
-let i;
-let n = arr.length;
-let estado = [];
-let resultado ='';
-let puestos = ''
+export function randomprob(probj) {
+    //let arr = ["Termino", "Accidente con resultado de muerte","Falla en Vehiculo"];
+    let arr = [];
+    let freq = [];
+    let i;
+    let resultado = '';
 
-for (i = 0; i < 20; i++){
-    resultado = myRand(arr, freq, n)+'\n';
-    estado.push(resultado);
+    probj.forEach(element => {
+        arr.push(element.id);
+        freq.push(element.prob);
+    });
+
+    resultado = myRand(arr, freq, arr.length);
+    console.log(probj[resultado]);
+
+    return probj[resultado];
 }
-fs.promises.writeFile("./resultados.json", estado);
+
+let test = [{
+    id: 0,
+    situacion: "Accidente sin muerte",
+    prob: 4,
+    puntuacion: 0,
+    vivo: true
+}, {
+    id: 1,
+    situacion: "Accidente con muerte",
+    prob: 1,
+    puntuacion: 0,
+    vivo: false
+}, {
+    id: 2,
+    situacion: "Abandono por problemas tecnicos",
+    prob: 10,
+    puntuacion: 0,
+    vivo: true
+}, {
+    id: 3,
+    situacion: "Avance lento",
+    prob: 25,
+    puntuacion: 1,
+    vivo: true
+}, {
+    id: 4,
+    situacion: "Avance regular",
+    prob: 40,
+    puntuacion: 2,
+    vivo: true
+}, {
+    id: 5,
+    situacion: "Avance rapido",
+    prob: 20,
+    puntuacion: 3,
+    vivo: true
+}]
+
+let arreglo = randomprob(test);
