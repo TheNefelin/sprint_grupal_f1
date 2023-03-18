@@ -18,6 +18,15 @@ export async function leerArchivoEquipo() {
     return await JSON.parse(data);
 };
 
+export async function leerArchivoPilotos() {
+    const dt = await fs.promises.readFile("./data/pilotos.json", (err, data) => {
+        if (err) throw err 
+        return data
+    });
+
+    return await JSON.parse(dt);
+};
+
 export async function leerArchivoEstado() {
     const data = await fs.promises.readFile("./data/estados.json", (err, data) => {
         if (err) throw err 
@@ -65,12 +74,13 @@ export async function leerTablaPosiciones() {
     };
 };
 
+// inicializar tabla
 export async function iniTablaPosiciones() {
     const data = {tabla: []};
     const arrCarrera = [];
 
     const circuito = await leerArchivoCircuitos();
-    const equipo = await leerArchivoEquipo();
+    const Piloto = await leerArchivoPilotos();
 
     data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
 
@@ -81,9 +91,8 @@ export async function iniTablaPosiciones() {
     });
 
      // fila de pilotos
-    equipo.equipos.forEach(e => {    
-        data.tabla.push({idEsc: e.id, nombre: e.piloto1, img: e.team, total: 0, arrCarrera: arrCarrera});
-        data.tabla.push({idEsc: e.id, nombre: e.piloto2, img: e.team, total: 0, arrCarrera: arrCarrera});
+     Piloto.pilotos.forEach(e => {    
+        data.tabla.push({idPiloto: e.id, idEsc: e.idEscuderia, nombre: e.piloto, img: e.team, total: 0, arrCarrera: arrCarrera});
     });
 
     await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {
@@ -92,54 +101,55 @@ export async function iniTablaPosiciones() {
 };
 
 export async function prepararCarrera(idCarrera) {
-    const circuito = await leerArchivoCircuitos();
-    let carrera = circuito.carrera.filter(e => e.id == idCarrera)[0];
+    const leerCircuito = await leerArchivoCircuitos();
+    const circuito = leerCircuito.carrera.filter(e => e.id == idCarrera)[0];
 
-    console.log(carrera)
+    if (circuito.isActive) {
+        const leerPilotos = await leerArchivoPilotos();
+        const pilotos = leerPilotos.pilotos.filter(e => e.isAlive == true);
+        const carrera = {... circuito, pilotos};
 
-    if (carrera.isActive) {
-        const equipo = await leerArchivoEquipo();
-        const pilotos = []
+        await crearSimulacion(carrera);
 
-        equipo.equipos.forEach(e => {       
-            if (e.isP1) {
-                pilotos.push({idCircuito: carrera.id, idEscuderia: e.id, piloto: e.piloto1, car: e.img, team: e.team, dist: 0, distT: 0});
-            };
-    
-            if (e.isP2) {
-                pilotos.push({idCircuito: carrera.id, idEscuderia: e.id, piloto: e.piloto2, car: e.img, team: e.team, dist: 0, distT: 0});
-            };
-        })
-
-        await crearSimulacion(pilotos.length);
-
-        return {... carrera, pilotos};
+        return carrera;
     } else {
-        return {isActive: false, circuito};
+        return {isActive: false, carrera: leerCircuito};
     };
 };
 
-async function crearSimulacion(cant) {
-    const estados =  await leerArchivoEstado();
-    const sim = [];
-    console.log(cant);
- 
-    let estado = true
-    let n = 0
-    while (estado) {
-        for (let i = 0; i < cant; i++) {
+async function crearSimulacion(carrera) {
+    const posibilidades = await leerArchivoEstado();
+    const simulacion = [];
+    const meta = 500;
+    let lugar = 0;
 
-        }
-        
-        n += 1;
-        if (n > 5) {
-            estado = false;
-        };
+    for (let i=0; i<3; i++) {
+        carrera.pilotos.forEach(piloto => {
+            const estado = randomprob(posibilidades.estado);
+            console.log(estado)
+            if (piloto.distT != 0) {
+                if (!estado.vivo) {
+                    piloto.isAlive = false;
+                    piloto.distT = 0;
+                    piloto.car = '/img/rip.svg'
+                    piloto.desc = estado.situacion;
+                } else if (estado.puntuacion == 0) {
+                    piloto.distT = 0;
+                    piloto.desc = estado.situacion;
+                } else if (piloto.distT > meta) {
+                    console.log("meta")
+                } else {
+                    piloto.dist += estado.puntuacion;
+                };
+            };
+    
+            simulacion.push(piloto)
+        });
     };
 
-    // await fs.promises.writeFile('./data/simulacion.json', JSON.stringify(sim), err => {
-    //     if (err) throw err;
-    // });
+    await fs.promises.writeFile('./data/simulacion.json', JSON.stringify(simulacion), err => {
+        if (err) throw err;
+    });
 };
 
 export async function tablaCarrera() {
@@ -182,17 +192,17 @@ function myRand(arr, freq, n) {
 }
 
 //Funcion padre de calculo de probabilidad.
-function randomprob(probj) {
+function randomprob(probabilidad) {
     let arr = [];
     let freq = [];
     let resultado = '';
 
-    probj.forEach(element => {
+    probabilidad.forEach(element => {
         arr.push(element.id);
         freq.push(element.prob);
     });
 
     resultado = myRand(arr, freq, arr.length);
 
-    return probj[resultado];
+    return probabilidad[resultado];
 }

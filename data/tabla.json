@@ -1,1 +1,1641 @@
-{"tabla":[{"idEsc":0,"nombre":"banderas","img":"","total":0,"arrCarrera":[{"puntaje":"/img/flags/1Bahrain.png"},{"puntaje":"/img/flags/2ArabiaSaudita.png"},{"puntaje":"/img/flags/3Australia.png"},{"puntaje":"/img/flags/4Azerbaiyan.png"},{"puntaje":"/img/flags/5Miami.png"},{"puntaje":"/img/flags/6Italia.png"},{"puntaje":"/img/flags/7Monaco.png"},{"puntaje":"/img/flags/8España.png"},{"puntaje":"/img/flags/9Canada.png"},{"puntaje":"/img/flags/10Austria.png"},{"puntaje":"/img/flags/11ReinoUnido.png"},{"puntaje":"/img/flags/12Hungria.png"},{"puntaje":"/img/flags/13Belgica.png"},{"puntaje":"/img/flags/14Holanda.png"},{"puntaje":"/img/flags/15Italia.png"},{"puntaje":"/img/flags/16Singapore.png"},{"puntaje":"/img/flags/17Japan.png"},{"puntaje":"/img/flags/18Qatar.png"},{"puntaje":"/img/flags/19EEUU.png"},{"puntaje":"/img/flags/20Mexico.png"},{"puntaje":"/img/flags/21Brazil.png"},{"puntaje":"/img/flags/22LasVegas.png"},{"puntaje":"/img/flags/23AbuDhabi.png"}]},{"idEsc":1,"nombre":"Valtteri Bottas","img":"/img/team/1alfaromeo.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":1,"nombre":"Guanyu Zhou","img":"/img/team/1alfaromeo.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":2,"nombre":"Esteban Ocon","img":"/img/team/2alpine.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":2,"nombre":"Pierre Gasly","img":"/img/team/2alpine.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":3,"nombre":"Nyck de Vries","img":"/img/team/3alphatauri.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":3,"nombre":"Yuki Tsunoda","img":"/img/team/3alphatauri.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":4,"nombre":"Lance Stroll","img":"/img/team/4astonmartin.png","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":4,"nombre":"Fernando Alonso","img":"/img/team/4astonmartin.png","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":5,"nombre":"Charles Leclerc","img":"/img/team/5ferrari.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":5,"nombre":"Carlos Sainz","img":"/img/team/5ferrari.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":6,"nombre":"Kevin Magnussen","img":"/img/team/6haas.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":6,"nombre":"Nico Hulkenberg","img":"/img/team/6haas.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":7,"nombre":"Lando Norris","img":"/img/team/7maclaren.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":7,"nombre":"Oscar Piastri","img":"/img/team/7maclaren.jpg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":8,"nombre":"Lewis Hamilton","img":"/img/team/8mercedes.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":8,"nombre":"George Russell","img":"/img/team/8mercedes.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":9,"nombre":"Max Verstappen","img":"/img/team/9redbull.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":9,"nombre":"Checo Pérez","img":"/img/team/9redbull.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":10,"nombre":"Alex Albon","img":"/img/team/10williams.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]},{"idEsc":10,"nombre":"Logan Sargeant","img":"/img/team/10williams.jpeg","total":0,"arrCarrera":[{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"},{"puntaje":"-"}]}]}
+{
+    "tabla": [
+        {
+            "idEsc": 0,
+            "nombre": "banderas",
+            "img": "",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "/img/flags/1Bahrain.png"
+                },
+                {
+                    "puntaje": "/img/flags/2ArabiaSaudita.png"
+                },
+                {
+                    "puntaje": "/img/flags/3Australia.png"
+                },
+                {
+                    "puntaje": "/img/flags/4Azerbaiyan.png"
+                },
+                {
+                    "puntaje": "/img/flags/5Miami.png"
+                },
+                {
+                    "puntaje": "/img/flags/6Italia.png"
+                },
+                {
+                    "puntaje": "/img/flags/7Monaco.png"
+                },
+                {
+                    "puntaje": "/img/flags/8España.png"
+                },
+                {
+                    "puntaje": "/img/flags/9Canada.png"
+                },
+                {
+                    "puntaje": "/img/flags/10Austria.png"
+                },
+                {
+                    "puntaje": "/img/flags/11ReinoUnido.png"
+                },
+                {
+                    "puntaje": "/img/flags/12Hungria.png"
+                },
+                {
+                    "puntaje": "/img/flags/13Belgica.png"
+                },
+                {
+                    "puntaje": "/img/flags/14Holanda.png"
+                },
+                {
+                    "puntaje": "/img/flags/15Italia.png"
+                },
+                {
+                    "puntaje": "/img/flags/16Singapore.png"
+                },
+                {
+                    "puntaje": "/img/flags/17Japan.png"
+                },
+                {
+                    "puntaje": "/img/flags/18Qatar.png"
+                },
+                {
+                    "puntaje": "/img/flags/19EEUU.png"
+                },
+                {
+                    "puntaje": "/img/flags/20Mexico.png"
+                },
+                {
+                    "puntaje": "/img/flags/21Brazil.png"
+                },
+                {
+                    "puntaje": "/img/flags/22LasVegas.png"
+                },
+                {
+                    "puntaje": "/img/flags/23AbuDhabi.png"
+                }
+            ]
+        },
+        {
+            "idPiloto": 1,
+            "idEsc": 1,
+            "nombre": "Valtteri Bottas",
+            "img": "/img/team/1alfaromeo.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 2,
+            "idEsc": 1,
+            "nombre": "Guanyu Zhou",
+            "img": "/img/team/1alfaromeo.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 3,
+            "idEsc": 2,
+            "nombre": "Esteban Ocon",
+            "img": "/img/team/2alpine.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 4,
+            "idEsc": 2,
+            "nombre": "Pierre Gasly",
+            "img": "/img/team/2alpine.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 5,
+            "idEsc": 3,
+            "nombre": "Nyck de Vries",
+            "img": "/img/team/3alphatauri.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 6,
+            "idEsc": 3,
+            "nombre": "Yuki Tsunoda",
+            "img": "/img/team/3alphatauri.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 7,
+            "idEsc": 4,
+            "nombre": "Lance Stroll",
+            "img": "/img/team/4astonmartin.png",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 8,
+            "idEsc": 4,
+            "nombre": "Fernando Alonso",
+            "img": "/img/team/4astonmartin.png",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 9,
+            "idEsc": 5,
+            "nombre": "Charles Leclerc",
+            "img": "/img/team/5ferrari.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 10,
+            "idEsc": 5,
+            "nombre": "Carlos Sainz",
+            "img": "/img/team/5ferrari.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 11,
+            "idEsc": 6,
+            "nombre": "Kevin Magnussen",
+            "img": "/img/team/6haas.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 12,
+            "idEsc": 6,
+            "nombre": "Nico Hulkenberg",
+            "img": "/img/team/6haas.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 13,
+            "idEsc": 7,
+            "nombre": "Lando Norris",
+            "img": "/img/team/7maclaren.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 14,
+            "idEsc": 7,
+            "nombre": "Oscar Piastri",
+            "img": "/img/team/7maclaren.jpg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 15,
+            "idEsc": 8,
+            "nombre": "Lewis Hamilton",
+            "img": "/img/team/8mercedes.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 16,
+            "idEsc": 8,
+            "nombre": "George Russell",
+            "img": "/img/team/8mercedes.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 17,
+            "idEsc": 9,
+            "nombre": "Max Verstappen",
+            "img": "/img/team/9redbull.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 18,
+            "idEsc": 9,
+            "nombre": "Checo Pérez",
+            "img": "/img/team/9redbull.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 19,
+            "idEsc": 10,
+            "nombre": "Alex Albon",
+            "img": "/img/team/10williams.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        },
+        {
+            "idPiloto": 20,
+            "idEsc": 10,
+            "nombre": "Logan Sargeant",
+            "img": "/img/team/10williams.jpeg",
+            "total": 0,
+            "arrCarrera": [
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                },
+                {
+                    "puntaje": "-"
+                }
+            ]
+        }
+    ]
+}

@@ -29,7 +29,7 @@ myRouter.get("/carrera/:idCircuito", (req, res) => {
             if (carrera.isActive) {
                 res.render("carrera", carrera);
             } else {
-                res.render("calendario", carrera.circuito);
+                res.render("calendario", carrera.carrera);
             }           
         });
     } else {
@@ -40,6 +40,5 @@ myRouter.get("/carrera/:idCircuito", (req, res) => {
 myRouter.all("*", (req,res) => {
     res.render("error");
 })
-
 
 export default myRouter;
