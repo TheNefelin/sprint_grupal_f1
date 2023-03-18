@@ -124,10 +124,12 @@ async function crearSimulacion(cant) {
     const sim = [];
     console.log(cant);
  
-    let estado = trues
+    let estado = true
     let n = 0
     while (estado) {
-        for (let i = 0; i < cant; i++)
+        for (let i = 0; i < cant; i++) {
+
+        }
         
         n += 1;
         if (n > 5) {
