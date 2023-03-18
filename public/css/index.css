@@ -20,7 +20,7 @@
     justify-content: space-between;
     font-family: var(--font-Sans);
     height: 4rem;
-    padding-right: 1rem;
+    width: 100%;
 }
 .logo {
     margin-left: 1rem;
@@ -32,6 +32,9 @@
     align-items: center;
     gap: .6rem;
     text-decoration: none;
+}
+.navbar-izq {
+    margin-right: 1rem;
 }
 .navbar-izq:hover {
     color: var(--clr-white-act);
@@ -160,12 +163,12 @@ footer {
     }
 }
 @media (max-width: 300px) {
-    .body2 {
+    .nombrelogo {
       font-size: 7px;
     }
 }
   @media (max-width: 200px) {
-    .body2 {
+    .nombrelogo {
       font-size: 6px;
     }
 }

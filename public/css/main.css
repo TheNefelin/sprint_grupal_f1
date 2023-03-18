@@ -5,15 +5,20 @@
 div {
 	font-family: var(--font-Sans);
 }
+@media (max-height: 500px) {
+  .container {
+    overflow-y: scroll;
+  }
+}
 @media (max-width: 400px) {
   .container {
     overflow-y: scroll;
   }
-
 }
 @media (max-width: 400px) {
   .body2 {
     font-size: 8px;
+    padding-bottom: 10rem;
   }
   .container--top-menu, .container--bottom-menu {
     display: flex;
