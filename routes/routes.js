@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { response, Router } from "express";
 import * as func from "../utils/funciones.js";
 
 const myRouter = Router();
@@ -16,27 +16,24 @@ myRouter.get("/calendario", (req, res) => {
 });
 
 myRouter.get("/posiciones", (req, res) => {
-    func.tablaPosiciones().then(data => {
+    func.leerTablaPosiciones().then(data => {
         res.render("posiciones", {bandera: data.tabla[0].arrCarrera, data});
     });
 });
 
-myRouter.get("/carrera/:id", (req, res) => {
-    if (!isNaN(req.params.id)) {
-        // preparar carrera o iniciar carrera
-        if (true) {
-            func.prepararCarrera(parseInt(req.params.id)).then(pilotos => {
-                res.render("carrera", {data: pilotos});
-            });
-        } else {
-            func.leerArchivoEstado().then(dt => {
-                func.iniciarCarrera(dt).then(simulacion => {
+myRouter.get("/carrera/:idCircuito", (req, res) => {
+    const idCircuito = req.params.idCircuito;
 
-                });
-            });
-            // await iniciarCarrera(ini)
-            res.render("carrera", {data: pilotos});
-        }
+    if (!isNaN(idCircuito) && idCircuito > 0 && idCircuito < 24) {
+        func.prepararCarrera(parseInt(idCircuito)).then(carrera => {
+            if (carrera.isActive) {
+                res.render("carrera", carrera);
+            } else {
+                res.render("calendario", carrera.circuito);
+            }           
+        });
+    } else {
+        res.render("error");
     };
 });
 

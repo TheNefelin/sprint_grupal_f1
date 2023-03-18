@@ -14,7 +14,7 @@
             "circuito": "STC Saudi Arabian GP, Jeddah Street Circuit",
             "flag": "/img/flags/2ArabiaSaudita.png",
             "pista": "/img/pistas/pista02.svg",
-            "isActive": true
+            "isActive": false
         },
         {
             "id": 3,
