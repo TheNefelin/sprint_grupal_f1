@@ -5,7 +5,12 @@
 div {
 	font-family: var(--font-Sans);
 }
+@media (max-width: 400px) {
+  .container {
+    overflow-y: scroll;
+  }
 
+}
 @media (max-width: 400px) {
   .body2 {
     font-size: 8px;

@@ -20,6 +20,7 @@
     justify-content: space-between;
     font-family: var(--font-Sans);
     height: 4rem;
+    padding-right: 1rem;
 }
 .logo {
     margin-left: 1rem;
@@ -31,7 +32,6 @@
     align-items: center;
     gap: .6rem;
     text-decoration: none;
-    width: 100%;
 }
 .navbar-izq:hover {
     color: var(--clr-white-act);
