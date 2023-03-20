@@ -22,7 +22,9 @@ myRouter.get("/posicionesescuderia", (req, res) => {
 })
 
 myRouter.get("/abandonos", (req,res) => {
-    res.render("abandonos");
+    func.leerArchivoPilotos().then(data => {
+        res.render("abandonos", {pilotosE: data.piloto});
+    })
 })
 
 myRouter.get("/calendario", (req, res) => {
