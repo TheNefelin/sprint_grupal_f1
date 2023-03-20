@@ -27,6 +27,15 @@ export async function leerArchivoPilotos() {
     return await JSON.parse(dt);
 };
 
+export async function leerArchivoPuntaje() {
+    const data = await fs.promises.readFile("./data/puntaje.json", (err, data) => {
+        if (err) throw err 
+        return data
+    });
+
+    return await JSON.parse(data);
+};
+
 export async function leerArchivoEstado() {
     const data = await fs.promises.readFile("./data/estados.json", (err, data) => {
         if (err) throw err 
@@ -118,14 +127,15 @@ export async function prepararCarrera(idCarrera) {
 };
 
 async function crearSimulacion(carrera) {
+    // const puntajes = await leerArchivoPuntaje();s
     const posibilidades = await leerArchivoEstado();
+    // const puntos = puntajes.puntaje.find(e => e.posicion == 2)
+    // console.log(puntos.puntos)
     const simulacion = [];
     const meta = 8;
     let lugar = 0;
 
-    console.log(carrera.pilotos.length)
-
-    while (lugar < carrera.pilotos.length) {
+    for (let i=0; i<meta; i++) {
         const aux = []
 
         carrera.pilotos.forEach(piloto => {
@@ -134,19 +144,21 @@ async function crearSimulacion(carrera) {
             if (piloto.isRaceActive && piloto.lugar == 0) {
                 if (!estado.vivo) {
                     piloto.isAlive = false;
-                    piloto.distT = 0;
+                    piloto.isRaceActive = false
+                    piloto.dist = 0;
                     piloto.car = '/img/rip.svg'
                     piloto.desc = estado.situacion;
                 } else if (estado.puntuacion == 0) {
-                    piloto.distT = 0;
-                    piloto.desc = estado.situacion;  
+                    piloto.dist = 0;
+                    piloto.desc = estado.situacion; 
+                    piloto.isRaceActive = false 
                 } else {
                     piloto.dist += estado.puntuacion;
                     if (piloto.dist >= meta) {
-                        piloto.isRaceActive = false;
                         lugar += 1;
+                        piloto.isRaceActive = false;
                         piloto.lugar = lugar;
-                        piloto.distT = meta;
+                        piloto.dist = meta;
                     };
                 }
             }
@@ -156,7 +168,7 @@ async function crearSimulacion(carrera) {
                     id: piloto.id,
                     isAlive: piloto.isAlive,
                     dist: piloto.dist,
-                    distT: piloto.distT,
+                    puntaje: piloto.puntaje,
                     car: piloto.car,
                     desc: piloto.desc,
                     lugar: piloto.lugar,
