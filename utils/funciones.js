@@ -60,14 +60,16 @@ export async function leerArchivoPilotos() {
     return await JSON.parse(dt);
 };
 
-export async function modificarArchivoPilotosById(id) {
+async function modificarArchivoPilotosById(ids) {
     const pilotos =  await leerArchivoPilotos();
     
-    pilotos.piloto.forEach(e => {
-        if (e.id == id) {
-            e.isAlive = false
-        }
-    })
+    pilotos.piloto.forEach(p => {
+        ids.forEach(id => {
+            if (p.id == id) {
+                p.isAlive = false;
+            };
+        });
+    });
 
     await fs.promises.writeFile('./data/pilotos.json', JSON.stringify(pilotos), err => {
         if (err) throw err;
@@ -214,6 +216,7 @@ async function crearSimulacion(circuito, pilotos) {
                 {
                     id: piloto.id,
                     isAlive: piloto.isAlive,
+                    isRaceActive: piloto.isRaceActive,
                     dist: piloto.dist,
                     puntaje: piloto.puntaje,
                     car: piloto.car,
@@ -226,11 +229,15 @@ async function crearSimulacion(circuito, pilotos) {
         simulacion.push(aux);
     };
 
+    const ids = []
     simulacion[simulacion.length -1].forEach(e => {
         if (!e.isAlive) {
-            modificarArchivoPilotosById(e.id);
+            ids.push(e.id);
         }
     });
+
+    // Mata a los pilotos en la UCI
+    await modificarArchivoPilotosById(ids);
 
     // Desactiva la Carrerra para que no se repita
     await modificarArchivoCircuitosById(circuito.id);
