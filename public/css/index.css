@@ -106,15 +106,14 @@
 }
 
 .race-resume {
+    background-image: url(../img/endcarrera.png);
     position: absolute;
-    background-color: red;
-    width: 100px;
-    height: 500px;
+    width: 55px;
+    height: 1000px;
     top: 18rem;
     left: 46rem;
     z-index: 0;
 }
-
 /* calendario ---------------------------------------------------- */
 .calendario {
     background-color: #181818;
