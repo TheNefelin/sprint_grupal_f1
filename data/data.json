@@ -5,7 +5,7 @@
             "fecha": "3 - 5 de mar.",
             "circuito": "Gulf Air Bahrain GP, Bahrain International Circuit",
             "flag": "/img/flags/1Bahrain.png",
-            "isActive": false
+            "isActive": true
         },
         {
             "id": 2,

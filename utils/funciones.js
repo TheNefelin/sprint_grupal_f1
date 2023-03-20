@@ -123,6 +123,8 @@ async function crearSimulacion(carrera) {
     const meta = 8;
     let lugar = 0;
 
+    console.log(carrera.pilotos.length)
+
     for (let i=0; i<10; i++) {
         const aux = []
 
@@ -168,7 +170,7 @@ async function crearSimulacion(carrera) {
     };
 
     console.log(simulacion)
-
+    
     await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
         if (err) throw err;
     });
