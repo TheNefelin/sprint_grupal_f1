@@ -2,10 +2,26 @@
 :root {
 	--font-Sans: 'Open Sans', sans-serif;
 }
+
 div {
 	font-family: var(--font-Sans);
 }
-@media (max-height: 500px) {
+@media (max-width: 2000px) {
+  .container {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .body2 {
+    font-size: 8px;
+    padding-bottom: 0;
+  }
+  .container--top-menu, .container--bottom-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
   .container {
     overflow-y: scroll;
   }
@@ -14,8 +30,6 @@ div {
   .container {
     overflow-y: scroll;
   }
-}
-@media (max-width: 400px) {
   .body2 {
     font-size: 8px;
     padding-bottom: 10rem;
@@ -37,7 +51,9 @@ div {
     font-size: 6px;
   }
 }
-
+.container--bottom-menu {
+  padding-bottom: 20rem;
+}
 .container {
   position: fixed;
   width: 100%;
@@ -46,8 +62,13 @@ div {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/545665/forza-bg-3.png);
   background-position: center;
   background-size: cover;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+}
+.h1posiciones {
+  text-align: center;
+}
+.tabless {
+  display: grid;
+  justify-content: center;
 }
 .container--logo {
   text-align: center;
@@ -62,6 +83,9 @@ div {
   margin: auto;
   max-width: 65em;
   border-radius: 5px;
+}
+.hrefcard {
+  text-decoration: none;
 }
 .container--top-menu {
   display: flex;
@@ -524,7 +548,7 @@ div {
   flex: 1;
 }
 .container--card-mini--text {
-  margin-left: 1em;
+  margin: 1em;
   flex: 2;
   display: flex;
 }

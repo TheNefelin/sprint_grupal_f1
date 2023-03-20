@@ -11,7 +11,7 @@ export async function leerArchivoCircuitos() {
 
 export async function leerArchivoEquipo() {
     const data = await fs.promises.readFile("./data/equipo.json", (err, data) => {
-        if (err) throw err 
+        if (err) throw err
         return data
     });
 
