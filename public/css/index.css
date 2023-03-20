@@ -58,6 +58,7 @@
 .tablaClasificaciones__Nclas, .tablaClasificaciones__TPuntos {
     background-color: var(--clr-white-tras);
 }
+
 .tablaClasificaciones__Nclas {
     padding: .3rem;
 }
