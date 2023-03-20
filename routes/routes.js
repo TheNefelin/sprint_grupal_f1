@@ -17,9 +17,12 @@ myRouter.get("/posicionespiloto", (req, res) => {
 
 myRouter.get("/posicionesescuderia", (req, res) => {
     func.leerArchivoEquipo().then(data => {
-        console.log({escudo: data.equipos})
         res.render("posicionesEscuderia", {escudo: data.equipos});
     })
+})
+
+myRouter.get("/abandonos", (req,res) => {
+    res.render("abandonos");
 })
 
 myRouter.get("/calendario", (req, res) => {

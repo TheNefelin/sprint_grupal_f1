@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+.margin0 {
+    margin: 0;
+}
 :root {
     --clr-black: #000000c9;
     --clr-white: #ffffff;   
@@ -40,6 +43,7 @@
 }
 
 /* CUADRO CLASIFICACIONES CARRERA */
+
 .tabless {
     width: 100%;
     overflow-x: visible;
@@ -141,7 +145,22 @@
 
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
-/* --------------------------------------------------------------- */
+/* Abandonos --------------------------------------------------------------- */
+
+.abandonos {
+    background-image: url(../img/fondoabandono.jpg);
+    color: var(--clr-white);
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 100%;
+}
+.h1Abandono {
+    text-align: center;
+    padding-top: 1rem;
+}
+
 
 /* FOOTER */
 footer {
