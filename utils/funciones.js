@@ -123,13 +123,15 @@ async function crearSimulacion(carrera) {
     const meta = 8;
     let lugar = 0;
 
-    for (let i=0; i<10; i++) {
+    console.log(carrera.pilotos.length)
+
+    while (lugar < carrera.pilotos.length) {
         const aux = []
 
         carrera.pilotos.forEach(piloto => {
             const estado = randomprob(posibilidades.estado);
 
-            if (piloto.distT != 0 && piloto.lugar == 0 && piloto.dist <= meta) {
+            if (piloto.isRaceActive && piloto.lugar == 0) {
                 if (!estado.vivo) {
                     piloto.isAlive = false;
                     piloto.distT = 0;
@@ -137,20 +139,18 @@ async function crearSimulacion(carrera) {
                     piloto.desc = estado.situacion;
                 } else if (estado.puntuacion == 0) {
                     piloto.distT = 0;
-                    piloto.desc = estado.situacion;
-                } else if (piloto.distT > meta) {
-                    console.log("meta")
+                    piloto.desc = estado.situacion;  
                 } else {
                     piloto.dist += estado.puntuacion;
                     if (piloto.dist >= meta) {
+                        piloto.isRaceActive = false;
                         lugar += 1;
                         piloto.lugar = lugar;
-                        piloto.dist = meta;
                         piloto.distT = meta;
                     };
-                };
-            };
-
+                }
+            }
+        
             aux.push(
                 {
                     id: piloto.id,
@@ -159,7 +159,7 @@ async function crearSimulacion(carrera) {
                     distT: piloto.distT,
                     car: piloto.car,
                     desc: piloto.desc,
-                    lugar: lugar,
+                    lugar: piloto.lugar,
                 }
             );
         });
@@ -168,7 +168,7 @@ async function crearSimulacion(carrera) {
     };
 
     console.log(simulacion)
-
+    
     await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
         if (err) throw err;
     });
