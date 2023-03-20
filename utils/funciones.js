@@ -120,14 +120,16 @@ export async function prepararCarrera(idCarrera) {
 async function crearSimulacion(carrera) {
     const posibilidades = await leerArchivoEstado();
     const simulacion = [];
-    const meta = 500;
+    const meta = 8;
     let lugar = 0;
 
-    for (let i=0; i<3; i++) {
+    for (let i=0; i<10; i++) {
+        const aux = []
+
         carrera.pilotos.forEach(piloto => {
             const estado = randomprob(posibilidades.estado);
-            console.log(estado)
-            if (piloto.distT != 0) {
+
+            if (piloto.distT != 0 && piloto.lugar == 0 && piloto.dist <= meta) {
                 if (!estado.vivo) {
                     piloto.isAlive = false;
                     piloto.distT = 0;
@@ -140,14 +142,34 @@ async function crearSimulacion(carrera) {
                     console.log("meta")
                 } else {
                     piloto.dist += estado.puntuacion;
+                    if (piloto.dist >= meta) {
+                        lugar += 1;
+                        piloto.lugar = lugar;
+                        piloto.dist = meta;
+                        piloto.distT = meta;
+                    };
                 };
             };
-    
-            simulacion.push(piloto)
+
+            aux.push(
+                {
+                    id: piloto.id,
+                    isAlive: piloto.isAlive,
+                    dist: piloto.dist,
+                    distT: piloto.distT,
+                    car: piloto.car,
+                    desc: piloto.desc,
+                    lugar: lugar,
+                }
+            );
         });
+
+        simulacion.push(aux);
     };
 
-    await fs.promises.writeFile('./data/simulacion.json', JSON.stringify(simulacion), err => {
+    console.log(simulacion)
+
+    await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
         if (err) throw err;
     });
 };

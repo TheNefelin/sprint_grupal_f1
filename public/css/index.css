@@ -93,7 +93,7 @@
     height: 5rem;
     transform: rotate(-90deg);
     top: calc(45px + 3rem * var(--i));
-    left: calc(8rem - 1rem * var(--x));
+    left: calc(8rem - 5rem * var(--x));
     transition: 1s;
 }
 

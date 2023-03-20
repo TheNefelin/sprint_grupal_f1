@@ -2,36 +2,36 @@
     "estado": [
         {
             "id": 0,
-            "situacion": "Accidente sin muerte",
-            "prob": 4,
-            "puntuacion": 0,
-            "vivo": true
-        },
-        {
-            "id": 1,
             "situacion": "Accidente con muerte",
-            "prob": 1,
+            "prob": 0.1,
             "puntuacion": 0,
             "vivo": false
         },
         {
+            "id": 1,
+            "situacion": "Accidente sin muerte",
+            "prob": 0.4,
+            "puntuacion": 0,
+            "vivo": true
+        },
+        {
             "id": 2,
             "situacion": "Abandono por problemas tecnicos",
-            "prob": 10,
+            "prob": 0.5,
             "puntuacion": 0,
             "vivo": true
         },
         {
             "id": 3,
             "situacion": "Avance lento",
-            "prob": 25,
+            "prob": 30,
             "puntuacion": 1,
             "vivo": true
         },
         {
             "id": 4,
             "situacion": "Avance regular",
-            "prob": 40,
+            "prob": 49,
             "puntuacion": 2,
             "vivo": true
         },

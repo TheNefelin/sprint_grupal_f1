@@ -11,20 +11,22 @@ const sim = [
     {pasos: [{index: 0, dist: 18}, {index: 1, dist: 16}]},
 ];
 
-if(document.querySelector(".race-speedway")) {       
-    sim.forEach((e, i) => {
-        const promesa = new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve();
-            }, 200 * i);
-        });
-    
-        promesa.then(() => {
-            const cars = document.querySelectorAll(".race-speedway .race-car");
+const cars = document.querySelectorAll(".race-speedway .race-car");
+
+if(cars) {  
+    fetch("/js/simulacion.json")
+    .then(data => data.json())
+    .then(dt => {
+        
+        dt.forEach((e, i) => {
+   
             cars.forEach((car, index) => {
-                const pos = e.pasos.filter(s => s.index == index);
-                car.style = `--i:${pos[0].index};--x:${-pos[0].dist};`
+                setTimeout(() => {
+                    const pos = e.filter(s => s.id == index + 1);
+                    car.style = `--i:${pos[0].id - 1};--x:${-pos[0].dist};`
+                }, 500 * i);
             });
+
         });
     });
 };
