@@ -118,19 +118,17 @@ export async function prepararCarrera(idCarrera) {
         const pilotos = leerPilotos.pilotos.filter(e => e.isAlive == true);
         const carrera = {... circuito, pilotos};
 
-        await crearSimulacion(carrera);
+        await crearSimulacion(circuito, pilotos);
 
-        return carrera;
+        return {... circuito, pilotos};
     } else {
         return {isActive: false, carrera: leerCircuito};
     };
 };
 
-async function crearSimulacion(carrera) {
+async function crearSimulacion(circuito, pilotos) {
     const puntajes = await leerArchivoPuntaje();
     const posibilidades = await leerArchivoEstado();
-    // const puntos = puntajes.puntaje.find(e => e.posicion == 2)
-    // console.log(puntos.puntos)
     const simulacion = [];
     const meta = 8;
     let lugar = 0;
@@ -138,18 +136,16 @@ async function crearSimulacion(carrera) {
     for (let i=0; i<meta; i++) {
         const aux = []
 
-        carrera.pilotos.forEach(piloto => {
+        pilotos.forEach(piloto => {
             const estado = randomprob(posibilidades.estado);
 
             if (piloto.isRaceActive && piloto.lugar == 0) {
                 if (!estado.vivo) {
                     piloto.isAlive = false;
                     piloto.isRaceActive = false
-                    piloto.dist = 0;
                     piloto.car = '/img/rip.svg'
                     piloto.desc = estado.situacion;
                 } else if (estado.puntuacion == 0) {
-                    piloto.dist = 0;
                     piloto.desc = estado.situacion; 
                     piloto.isRaceActive = false 
                 } else {
@@ -159,9 +155,12 @@ async function crearSimulacion(carrera) {
                         piloto.isRaceActive = false;
                         piloto.lugar = lugar;
                         piloto.dist = meta;
-                        const ptje = puntajes.puntaje.find(e => e.posicion == lugar); 
-                        // console.log(ptje.puntos)
-                        // piloto.puntaje = ptje.puntaje
+                        if (lugar <= 10) {
+                            const ptje = puntajes.puntaje.find(e => e.posicion == lugar); 
+                            piloto.puntaje = ptje.puntos;
+                        } else {
+                            piloto.puntaje = 0;
+                        }
                     };
                 };
             };
@@ -182,7 +181,9 @@ async function crearSimulacion(carrera) {
         simulacion.push(aux);
     };
 
-    // console.log(simulacion)
+    console.log(circuito);
+    console.log(simulacion[simulacion.length -1]);
+
     
     await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
         if (err) throw err;

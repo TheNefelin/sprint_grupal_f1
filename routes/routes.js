@@ -37,8 +37,5 @@ myRouter.get("/carrera/:idCircuito", (req, res) => {
     };
 });
 
-myRouter.all("*", (req,res) => {
-    res.render("error");
-})
 
 export default myRouter;
