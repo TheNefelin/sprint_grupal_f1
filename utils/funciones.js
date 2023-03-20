@@ -236,16 +236,16 @@ async function crearSimulacion(circuito, pilotos) {
         }
     });
 
-    // // Mata a los pilotos en la UCI
-    // await modificarArchivoPilotosById(ids);
+    // Mata a los pilotos en la UCI
+    await modificarArchivoPilotosById(ids);
 
-    // // Desactiva la Carrerra para que no se repita
-    // await modificarArchivoCircuitosById(circuito.id);
+    // Desactiva la Carrerra para que no se repita
+    await modificarArchivoCircuitosById(circuito.id);
 
-    // // crea el historico de carrearas
-    // const carrera = await leerArchivoCarreras();
-    // carrera.carrera.push({...circuito, carrera: simulacion[simulacion.length -1]});
-    // await modificarArchivoCarreras(carrera);
+    // crea el historico de carrearas
+    const carrera = await leerArchivoCarreras();
+    carrera.carrera.push({...circuito, carrera: simulacion[simulacion.length -1]});
+    await modificarArchivoCarreras(carrera);
 
     // crea la simulacion animada
     await modificarArchivoSimulacionPublic(simulacion);
