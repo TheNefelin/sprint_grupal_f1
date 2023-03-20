@@ -9,11 +9,18 @@ myRouter.get("/", (req, res) => {
     });
 });
 
-myRouter.get("/posiciones", (req, res) => {
+myRouter.get("/posicionespiloto", (req, res) => {
     func.leerTablaPosiciones().then(data => {
-        res.render("posiciones", {bandera: data.tabla[0].arrCarrera, data});
+        res.render("posicionesPiloto", {bandera: data.tabla[0].arrCarrera, data});
     });
 });
+
+myRouter.get("/posicionesescuderia", (req, res) => {
+    func.leerArchivoEquipo().then(data => {
+        console.log(data.equipos)
+        res.render("posicionesEscuderia", data);
+    })
+})
 
 myRouter.get("/calendario", (req, res) => {
     func.leerArchivoCircuitos().then(data => {
@@ -37,5 +44,8 @@ myRouter.get("/carrera/:idCircuito", (req, res) => {
     };
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 50984e86177b10085189e52d44d16a73459e2a3b
 export default myRouter;
