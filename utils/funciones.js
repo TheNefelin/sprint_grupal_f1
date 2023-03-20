@@ -10,7 +10,7 @@ export async function leerArchivoCircuitos() {
 };
 
 export async function leerArchivoEquipo() {
-    const data = await fs.promises.readFile("./data/equipo.json", (err, data) => {
+    const data = await fs.promises.readFile("./data/equipos.json", (err, data) => {
         if (err) throw err
         return data
     });
@@ -88,13 +88,13 @@ export async function iniTablaPosiciones() {
     const data = {tabla: []};
     const arrCarrera = [];
 
-    const circuito = await leerArchivoCircuitos();
+    const circuitos = await leerArchivoCircuitos();
     const Piloto = await leerArchivoPilotos();
 
     data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
 
     // columnas de banderas
-    circuito.carrera.forEach(e => {
+    circuitos.circuito.forEach(e => {
         data.tabla[0].arrCarrera.push({puntaje: e.flag});
         arrCarrera.push({puntaje: "-"});
     });
@@ -110,7 +110,7 @@ export async function iniTablaPosiciones() {
 };
 
 export async function prepararCarrera(idCarrera) {
-    const leerCircuito = await leerArchivoCircuitos();
+    const leerCircuito = await leerArchivocircuitos();
     const circuito = leerCircuito.carrera.filter(e => e.id == idCarrera)[0];
 
     if (circuito.isActive) {
@@ -191,11 +191,11 @@ async function crearSimulacion(circuito, pilotos) {
 };
 
 export async function tablaCarrera() {
-    const circuito = await leerArchivoCircuitos();
+    const circuitos = await leerArchivoCircuitos();
     const equipo = await leerArchivoEquipo();
     const arrTablaCarrera = {circuito: [], equipo: []};
 
-    circuito.carrera.forEach(e => {
+    circuitos.circuito.forEach(e => {
         arrTablaCarrera.circuito.push({img: e.flag})
     });
 
