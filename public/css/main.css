@@ -2,6 +2,7 @@
 :root {
 	--font-Sans: 'Open Sans', sans-serif;
 }
+
 div {
 	font-family: var(--font-Sans);
 }
@@ -13,7 +14,7 @@ div {
 @media (max-width: 500px) {
   .body2 {
     font-size: 8px;
-    padding-bottom: 10rem;
+    padding-bottom: 0;
   }
   .container--top-menu, .container--bottom-menu {
     display: flex;
@@ -61,6 +62,13 @@ div {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/545665/forza-bg-3.png);
   background-position: center;
   background-size: cover;
+}
+.h1posiciones {
+  text-align: center;
+}
+.tabless {
+  display: grid;
+  justify-content: center;
 }
 .container--logo {
   text-align: center;
@@ -540,7 +548,7 @@ div {
   flex: 1;
 }
 .container--card-mini--text {
-  margin-left: 1em;
+  margin: 1em;
   flex: 2;
   display: flex;
 }
