@@ -127,7 +127,7 @@ export async function prepararCarrera(idCarrera) {
 };
 
 async function crearSimulacion(carrera) {
-    // const puntajes = await leerArchivoPuntaje();s
+    const puntajes = await leerArchivoPuntaje();
     const posibilidades = await leerArchivoEstado();
     // const puntos = puntajes.puntaje.find(e => e.posicion == 2)
     // console.log(puntos.puntos)
@@ -159,9 +159,12 @@ async function crearSimulacion(carrera) {
                         piloto.isRaceActive = false;
                         piloto.lugar = lugar;
                         piloto.dist = meta;
+                        const ptje = puntajes.puntaje.find(e => e.posicion == lugar); 
+                        // console.log(ptje.puntos)
+                        // piloto.puntaje = ptje.puntaje
                     };
-                }
-            }
+                };
+            };
         
             aux.push(
                 {
@@ -179,7 +182,7 @@ async function crearSimulacion(carrera) {
         simulacion.push(aux);
     };
 
-    console.log(simulacion)
+    // console.log(simulacion)
     
     await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
         if (err) throw err;
