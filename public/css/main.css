@@ -6,6 +6,11 @@
 div {
 	font-family: var(--font-Sans);
 }
+@media (max-width: 3000px) {
+  .container {
+    font-size: 20px;
+  }
+}
 @media (max-width: 2000px) {
   .container {
     font-size: 15px;

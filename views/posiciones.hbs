@@ -27,7 +27,7 @@
             {{/each}}
         </table>
 
-        <br id="tablaClasEscuderia">
+        <div id="tablaClasEscuderia"></div>
         <h1 class="h1posiciones">Tabla Clasificaciones Escuderias</h1>
         <table class="tablaClasificacion">
             <tr>
@@ -42,7 +42,9 @@
                 {{#if idEsc}}
                 <tr>
                     <th class="tablaClasificaciones__Nclas">{{@key}}</th>
+
                     <th><img class="tablaClasificacion__paises" src={{img}}></th>
+                    
                     <th class="tablaClasificaciones__TPuntos">{{total}}</th>
                     {{#each arrCarrera}}
                         <th>{{puntaje}}</th>

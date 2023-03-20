@@ -47,13 +47,10 @@
 .tablaClasificacion {
     justify-content: flex;
     border: solid 1px var(--clr-black);
-    /* margin: 1rem 5rem 3rem 5rem;
-    padding: .5rem; */
-    /* border-spacing: .3rem 0; */
     overflow-x: visible;
     width: 100%;
     font-size: 0.8rem;
-    margin: 0;
+    margin-bottom: 1rem;
 }
 .tablaClasificacion__paises, .tablaClasificacion__teams {
     max-height: 2rem;
