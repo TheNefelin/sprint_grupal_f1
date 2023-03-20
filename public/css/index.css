@@ -142,8 +142,6 @@
 
 /* FOOTER */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: var(--clr-black);
     color: var(--clr-white);
@@ -151,7 +149,6 @@ footer {
     padding: .5rem;
     font-family: var(--font-Sans);
 }
-
 
 /* MQ */
 @media (max-width: 600px) {
