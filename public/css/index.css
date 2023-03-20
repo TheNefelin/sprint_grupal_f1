@@ -102,6 +102,17 @@
     top: calc(45px + 3rem * var(--i));
     left: calc(8rem - 5rem * var(--x));
     transition: 1s;
+    z-index: 1;
+}
+
+.race-resume {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 500px;
+    top: 18rem;
+    left: 46rem;
+    z-index: 0;
 }
 
 /* calendario ---------------------------------------------------- */
@@ -170,6 +181,7 @@ footer {
     text-align: center;
     font-family: var(--font-Sans);
 }
+
 footer div {
     padding: .5rem;
 }
