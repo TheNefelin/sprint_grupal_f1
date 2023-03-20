@@ -1,5 +1,6 @@
 import * as fs from "fs"
 
+// manipulacion archivo circuitos.json
 export async function leerArchivoCircuitos() {
     const data = await fs.promises.readFile("./data/circuitos.json", (err, data) => {
         if (err) throw err 
@@ -9,6 +10,37 @@ export async function leerArchivoCircuitos() {
     return await JSON.parse(data);
 };
 
+export async function modificarArchivoCircuitosById(id) {
+    const circuitos =  await leerArchivoCircuitos();
+    
+    circuitos.circuito.forEach(e => {
+        if (e.id == id) {
+            e.isActive = false
+        }
+    })
+
+    await fs.promises.writeFile('./data/circuitos.json', JSON.stringify(circuitos), err => {
+        if (err) throw err;
+    });
+};
+
+// manipulacion archivo carreras.json
+export async function leerArchivoCarreras() {
+    const data = await fs.promises.readFile("./data/carreras.json", (err, data) => {
+        if (err) throw err 
+        return data
+    });
+
+    return await JSON.parse(data);
+};
+
+export async function modificarArchivoCarreras(data) {
+    await fs.promises.writeFile('./data/carreras.json', JSON.stringify(data), err => {
+        if (err) throw err;
+    });
+};
+
+// No Sirve se debe modificar
 export async function leerArchivoEquipo() {
     const data = await fs.promises.readFile("./data/equipos.json", (err, data) => {
         if (err) throw err
@@ -18,6 +50,7 @@ export async function leerArchivoEquipo() {
     return await JSON.parse(data);
 };
 
+// manipulacion archivo pilotos.json
 export async function leerArchivoPilotos() {
     const dt = await fs.promises.readFile("./data/pilotos.json", (err, data) => {
         if (err) throw err 
@@ -27,8 +60,23 @@ export async function leerArchivoPilotos() {
     return await JSON.parse(dt);
 };
 
-export async function leerArchivoPuntaje() {
-    const data = await fs.promises.readFile("./data/puntaje.json", (err, data) => {
+export async function modificarArchivoPilotosById(id) {
+    const pilotos =  await leerArchivoPilotos();
+    
+    pilotos.piloto.forEach(e => {
+        if (e.id == id) {
+            e.isAlive = false
+        }
+    })
+
+    await fs.promises.writeFile('./data/pilotos.json', JSON.stringify(pilotos), err => {
+        if (err) throw err;
+    });
+};
+
+// manipulacion archivo puntajes.json
+export async function leerArchivoPuntajes() {
+    const data = await fs.promises.readFile("./data/puntajes.json", (err, data) => {
         if (err) throw err 
         return data
     });
@@ -45,15 +93,6 @@ export async function leerArchivoEstado() {
     return await JSON.parse(data);
 };
 
-export async function leerArchivoSimulacion() {
-    const data = await fs.promises.readFile("./data/simulacion.json", (err, data) => {
-        if (err) throw err 
-        return data
-    });
-
-    return await JSON.parse(data);
-};
-
 export async function leerArchivoSimulacionPublic() {
     const data = await fs.promises.readFile("./public/js/simulacion.json", (err, data) => {
         if (err) throw err 
@@ -61,6 +100,12 @@ export async function leerArchivoSimulacionPublic() {
     });
     
     return await JSON.parse(data);
+};
+
+export async function modificarArchivoSimulacionPublic(data) {
+    await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(data), err => {
+        if (err) throw err;
+    });
 };
 
 export async function leerTablaPosiciones() {
@@ -89,7 +134,7 @@ export async function iniTablaPosiciones() {
     const arrCarrera = [];
 
     const circuitos = await leerArchivoCircuitos();
-    const Piloto = await leerArchivoPilotos();
+    const pilotos = await leerArchivoPilotos();
 
     data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
 
@@ -100,7 +145,7 @@ export async function iniTablaPosiciones() {
     });
 
      // fila de pilotos
-     Piloto.pilotos.forEach(e => {    
+     pilotos.piloto.forEach(e => {    
         data.tabla.push({idPiloto: e.id, idEsc: e.idEscuderia, nombre: e.piloto, img: e.team, total: 0, arrCarrera: arrCarrera});
     });
 
@@ -110,12 +155,12 @@ export async function iniTablaPosiciones() {
 };
 
 export async function prepararCarrera(idCarrera) {
-    const leerCircuito = await leerArchivocircuitos();
-    const circuito = leerCircuito.carrera.filter(e => e.id == idCarrera)[0];
+    const leerCircuito = await leerArchivoCircuitos();
+    const circuito = leerCircuito.circuito.filter(e => e.id == idCarrera)[0];
 
     if (circuito.isActive) {
         const leerPilotos = await leerArchivoPilotos();
-        const pilotos = leerPilotos.pilotos.filter(e => e.isAlive == true);
+        const pilotos = leerPilotos.piloto.filter(e => e.isAlive == true);
         const carrera = {... circuito, pilotos};
 
         await crearSimulacion(circuito, pilotos);
@@ -127,7 +172,7 @@ export async function prepararCarrera(idCarrera) {
 };
 
 async function crearSimulacion(circuito, pilotos) {
-    const puntajes = await leerArchivoPuntaje();
+    const puntajes = await leerArchivoPuntajes();
     const posibilidades = await leerArchivoEstado();
     const simulacion = [];
     const meta = 8;
@@ -181,13 +226,22 @@ async function crearSimulacion(circuito, pilotos) {
         simulacion.push(aux);
     };
 
-    console.log(circuito);
-    console.log(simulacion[simulacion.length -1]);
-
-    
-    await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(simulacion), err => {
-        if (err) throw err;
+    simulacion[simulacion.length -1].forEach(e => {
+        if (!e.isAlive) {
+            modificarArchivoPilotosById(e.id);
+        }
     });
+
+    // Desactiva la Carrerra para que no se repita
+    await modificarArchivoCircuitosById(circuito.id);
+
+    // crea el historico de carrearas
+    const carrera = await leerArchivoCarreras();
+    carrera.carrera.push({...circuito, carrera: simulacion[simulacion.length -1]});
+    await modificarArchivoCarreras(carrera);
+
+    // crea la simulacion animada
+    await modificarArchivoSimulacionPublic(simulacion);
 };
 
 export async function tablaCarrera() {
