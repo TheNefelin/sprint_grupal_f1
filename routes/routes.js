@@ -10,8 +10,8 @@ myRouter.get("/", (req, res) => {
 });
 
 myRouter.get("/posicionespiloto", (req, res) => {
-    func.leerTablaPosiciones().then(data => {
-        res.render("posicionesPiloto", {bandera: data.tabla[0].arrCarrera, data});
+    func.tablaPosiciones().then(data => {
+        res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], data});
     });
 });
 

@@ -1,3 +1,4 @@
+import e from "express";
 import * as fs from "fs"
 
 // manipulacion archivo circuitos.json
@@ -10,7 +11,7 @@ export async function leerArchivoCircuitos() {
     return await JSON.parse(data);
 };
 
-export async function modificarArchivoCircuitosById(id) {
+async function modificarArchivoCircuitosById(id) {
     const circuitos =  await leerArchivoCircuitos();
     
     circuitos.circuito.forEach(e => {
@@ -34,7 +35,7 @@ export async function leerArchivoCarreras() {
     return await JSON.parse(data);
 };
 
-export async function modificarArchivoCarreras(data) {
+async function modificarArchivoCarreras(data) {
     await fs.promises.writeFile('./data/carreras.json', JSON.stringify(data), err => {
         if (err) throw err;
     });
@@ -110,6 +111,69 @@ export async function modificarArchivoSimulacionPublic(data) {
     });
 };
 
+export async function tablaPosiciones() {
+    const circuitos = await leerArchivoCircuitos();
+    const pilotos = await leerArchivoPilotos();
+    const carreras = await leerArchivoCarreras();
+
+    const tp = {tablaPosiciones: []};
+    const arrPuntos = [];
+
+    // primera fila de las Banderas
+    tp.tablaPosiciones.push({idPiloto: 0, nomPiloto: "", imgEscudo: "", total: 0, puntos: []});
+
+    circuitos.circuito.forEach(c => {
+        tp.tablaPosiciones[0].puntos.push({puntaje: c.flag});
+        arrPuntos.push({puntaje: "-"});
+    });
+
+    // fila de pilotos
+    pilotos.piloto.forEach(p => {
+        tp.tablaPosiciones.push({idPiloto: p.id, nomPiloto: p.piloto, imgEscudo: p.team, total: 0, puntos: arrPuntos});
+    });
+
+    // llenar tabla
+    carreras.carrera.forEach(carrera => {
+        const idCarrera = carrera.id - 1;
+
+        carrera.pilotos.forEach(piloto => {
+            const idPiloto = piloto.id;
+            const puntos = piloto.puntaje;
+            console.log({idPiloto: idPiloto, idCarrera: idCarrera});
+
+            tp.tablaPosiciones[idPiloto].total += puntos;
+            tp.tablaPosiciones[idPiloto].puntos[idCarrera].puntaje = puntos;
+        });
+    });
+
+    return tp;
+};
+
+export async function iniTablaPosiciones() {
+    const data = {tabla: []};
+    const arrCarrera = [];
+
+    const circuitos = await leerArchivoCircuitos();
+    const pilotos = await leerArchivoPilotos();
+
+    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
+
+    // columnas de banderas
+    circuitos.circuito.forEach(e => {
+        data.tabla[0].arrCarrera.push({puntaje: e.flag});
+        arrCarrera.push({puntaje: "-"});
+    });
+
+     // fila de pilotos
+    pilotos.piloto.forEach(e => {    
+        data.tabla.push({idPiloto: e.id, idEsc: e.idEscuderia, nombre: e.piloto, img: e.team, total: 0, arrCarrera: arrCarrera});
+    });
+
+    await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {
+        if (err) throw err;
+    });
+};
+
 export async function leerTablaPosiciones() {
     try {
         const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
@@ -130,31 +194,21 @@ export async function leerTablaPosiciones() {
     };
 };
 
-// inicializar tabla
-export async function iniTablaPosiciones() {
-    const data = {tabla: []};
-    const arrCarrera = [];
-
+export async function tablaCarrera() {
     const circuitos = await leerArchivoCircuitos();
-    const pilotos = await leerArchivoPilotos();
+    const equipo = await leerArchivoEquipo();
+    const arrTablaCarrera = {circuito: [], equipo: []};
 
-    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
-
-    // columnas de banderas
     circuitos.circuito.forEach(e => {
-        data.tabla[0].arrCarrera.push({puntaje: e.flag});
-        arrCarrera.push({puntaje: "-"});
+        arrTablaCarrera.circuito.push({img: e.flag})
     });
 
-     // fila de pilotos
-     pilotos.piloto.forEach(e => {    
-        data.tabla.push({idPiloto: e.id, idEsc: e.idEscuderia, nombre: e.piloto, img: e.team, total: 0, arrCarrera: arrCarrera});
+    equipo.equipos.forEach(e => {
+        arrTablaCarrera.equipo.push({img: e.team});
     });
-
-    await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {
-        if (err) throw err;
-    });
-};
+    
+    return arrTablaCarrera;
+}
 
 export async function prepararCarrera(idCarrera) {
     const leerCircuito = await leerArchivoCircuitos();
@@ -244,28 +298,12 @@ async function crearSimulacion(circuito, pilotos) {
 
     // crea el historico de carrearas
     const carrera = await leerArchivoCarreras();
-    carrera.carrera.push({...circuito, carrera: simulacion[simulacion.length -1]});
+    carrera.carrera.push({...circuito, pilotos: simulacion[simulacion.length -1]});
     await modificarArchivoCarreras(carrera);
 
     // crea la simulacion animada
     await modificarArchivoSimulacionPublic(simulacion);
 };
-
-export async function tablaCarrera() {
-    const circuitos = await leerArchivoCircuitos();
-    const equipo = await leerArchivoEquipo();
-    const arrTablaCarrera = {circuito: [], equipo: []};
-
-    circuitos.circuito.forEach(e => {
-        arrTablaCarrera.circuito.push({img: e.flag})
-    });
-
-    equipo.equipos.forEach(e => {
-        arrTablaCarrera.equipo.push({img: e.team});
-    });
-    
-    return arrTablaCarrera;
-}
 
 //Funcion encontrar celda
 function findCeil(arr, r, l, h) {
