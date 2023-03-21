@@ -11,21 +11,28 @@ myRouter.get("/", (req, res) => {
 
 myRouter.get("/posicionespiloto", (req, res) => {
     func.tablaPosiciones().then(data => {
-        res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], data});
+      res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], data});
     });
 });
 
 myRouter.get("/posicionesescuderia", (req, res) => {
     func.leerArchivoEquipo().then(data => {
         res.render("posicionesEscuderia", {escudo: data.equipos});
-    })
-})
+    });
+});
 
-myRouter.get("/abandonos", (req,res) => {
+myRouter.get("/abandonos", (req, res) => {
     func.leerArchivoPilotos().then(data => {
-        res.render("abandonos", {pilotosE: data.piloto});
+        const fallecidos = data.piloto.filter(e => e.isAlive == false);
+        // console.log(fallecidos)
+
+        func.tablaAbandonos().then(abandonos => {
+            // console.log(abandonos)
+
+            res.render("abandonos", {pilotosE: data.piloto});
+        });
     })
-})
+});
 
 myRouter.get("/calendario", (req, res) => {
     func.leerArchivoCircuitos().then(data => {

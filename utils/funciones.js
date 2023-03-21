@@ -105,7 +105,7 @@ export async function leerArchivoSimulacionPublic() {
     return await JSON.parse(data);
 };
 
-export async function modificarArchivoSimulacionPublic(data) {
+async function modificarArchivoSimulacionPublic(data) {
     await fs.promises.writeFile('./public/js/simulacion.json', JSON.stringify(data), err => {
         if (err) throw err;
     });
@@ -120,7 +120,7 @@ export async function tablaPosiciones() {
     const arrPuntos = [];
 
     // primera fila de las Banderas
-    tp.tablaPosiciones.push({idPiloto: 0, nomPiloto: "", imgEscudo: "", total: 0, puntos: []});
+    tp.tablaPosiciones.push({idPiloto: 0, nomPiloto: "", imgEscudo: "", total: 1000000, puntos: []});
 
     circuitos.circuito.forEach(c => {
         tp.tablaPosiciones[0].puntos.push({puntaje: c.flag});
@@ -139,60 +139,41 @@ export async function tablaPosiciones() {
         carrera.pilotos.forEach(piloto => {
             const idPiloto = piloto.id;
             const puntos = piloto.puntaje;
-            console.log({idPiloto: idPiloto, idCarrera: idCarrera});
+
+            // console.log({idPiloto: idPiloto, idCarrera: idCarrera});
 
             tp.tablaPosiciones[idPiloto].total += puntos;
             tp.tablaPosiciones[idPiloto].puntos[idCarrera].puntaje = puntos;
         });
     });
 
+    tp.tablaPosiciones.sort((a, b) => (b.total - a.total));
+
     return tp;
 };
 
-export async function iniTablaPosiciones() {
-    const data = {tabla: []};
-    const arrCarrera = [];
+export async function tablaAbandonos() {
+    const data = await leerArchivoCarreras();
+    const bPilotos = await leerArchivoPilotos();
+    const arr = []
 
-    const circuitos = await leerArchivoCircuitos();
-    const pilotos = await leerArchivoPilotos();
-
-    data.tabla.push({idEsc: 0, nombre: "banderas", img: "", total: 0, arrCarrera: []});
-
-    // columnas de banderas
-    circuitos.circuito.forEach(e => {
-        data.tabla[0].arrCarrera.push({puntaje: e.flag});
-        arrCarrera.push({puntaje: "-"});
-    });
-
-     // fila de pilotos
-    pilotos.piloto.forEach(e => {    
-        data.tabla.push({idPiloto: e.id, idEsc: e.idEscuderia, nombre: e.piloto, img: e.team, total: 0, arrCarrera: arrCarrera});
-    });
-
-    await fs.promises.writeFile('./data/tabla.json', JSON.stringify(data), err => {
-        if (err) throw err;
-    });
-};
-
-export async function leerTablaPosiciones() {
-    try {
-        const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
-            if (err) throw err 
-            return data;
+    data.carrera.forEach(carrera => {
+        carrera.pilotos.forEach(pilotos => {
+            if (pilotos.isAlive && pilotos.desc != "") {
+                const dt = { id: pilotos.id, desc: pilotos.desc }
+                const index = arr.findIndex(e => e.id == dt.id && e.desc == dt.desc)
+                if (index == -1) {
+                    const bp = bPilotos.piloto.find(e => e.id = pilotos.id)
+                    arr.push({...dt, cant: 1, piloto: bp.piloto});
+                } else {
+                    arr[index].cant += 1;
+                }
+            };
         });
+    });
 
-        return await JSON.parse(data);
-    } catch {
-        await iniTablaPosiciones();
-
-        const data = await fs.promises.readFile("./data/tabla.json", (err, data) => {
-            if (err) throw err 
-            return data;
-        });
-
-        return await JSON.parse(data);
-    };
-};
+   return arr.sort((a, b) => (a.id - b.id));
+}; 
 
 export async function tablaCarrera() {
     const circuitos = await leerArchivoCircuitos();
@@ -261,11 +242,11 @@ async function crearSimulacion(circuito, pilotos) {
                             piloto.puntaje = ptje.puntos;
                         } else {
                             piloto.puntaje = 0;
-                        }
+                        };
                     };
                 };
             };
-        
+
             aux.push(
                 {
                     id: piloto.id,
@@ -313,7 +294,7 @@ function findCeil(arr, r, l, h) {
         (r > arr[mid]) ? (l = mid + 1) : (h = mid);
     }
     return (arr[l] >= r) ? l : -1;
-}
+};
 
 //Funcion randomixer
 function myRand(arr, freq, n) {
@@ -326,7 +307,7 @@ function myRand(arr, freq, n) {
 
     let indexc = findCeil(prefix, r, 0, n - 1);
     return arr[indexc];
-}
+};
 
 //Funcion padre de calculo de probabilidad.
 function randomprob(probabilidad) {
