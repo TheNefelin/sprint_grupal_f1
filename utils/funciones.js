@@ -187,7 +187,7 @@ export async function tablaAbandonos() {
                 const dt = { id: pilotos.id, desc: pilotos.desc }
                 const index = arr.findIndex(e => e.id == dt.id && e.desc == dt.desc)
                 if (index == -1) {
-                    const bp = bPilotos.piloto.find(e => e.id = pilotos.id)
+                    const bp = bPilotos.piloto.find(e => e.id = pilotos.id);
                     arr.push({...dt, cant: 1, piloto: bp.piloto});
                 } else {
                     arr[index].cant += 1;
