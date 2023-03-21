@@ -173,6 +173,13 @@ export async function tablaAbandonos() {
    return arr.sort((a, b) => (a.id - b.id));
 }; 
 
+export async function tablaResumenCarreraById(id) {
+    const carreras = await leerArchivoCarreras();
+    const carrera = carreras.carrera.find(e => e.id == id);
+    
+    return await carrera.pilotos;
+}; 
+
 export async function tablaCarrera() {
     const circuitos = await leerArchivoCircuitos();
     const equipo = await leerArchivoEquipo();

@@ -46,6 +46,9 @@ myRouter.get("/carrera/:idCircuito", (req, res) => {
     if (!isNaN(idCircuito) && idCircuito > 0 && idCircuito < 24) {
         func.prepararCarrera(parseInt(idCircuito)).then(carrera => {
             if (carrera.isActive) {
+                func.tablaResumenCarreraById(idCircuito).then(resumen => {
+                    console.log(resumen)
+                })
                 res.render("carrera", carrera);
             } else {
                 res.render("calendario", carrera.carrera);
