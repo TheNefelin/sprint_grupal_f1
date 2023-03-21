@@ -36,17 +36,17 @@
                     <th><img class="tablaClasificacion__paises" src={{puntaje}}></th>
                 {{/each}}
             </tr>
-            {{#each data.tablaPosiciones}}
+            {{#each items}}
                 {{#if idPiloto}}
-                <tr>
-                    <th class="tablaClasificaciones__Nclas">{{@key}}</th>
-                    <th><img class="tablaClasificacion__teams" src={{imgEscudo}}></th>
-                    <th>{{nomPiloto}}</th>
-                    <th class="tablaClasificaciones__TPuntos">{{total}}</th>
-                    {{#each puntos}}
-                        <th>{{puntaje}}</th>
-                    {{/each}}
-                </tr>
+                    <tr>
+                        <th class="tablaClasificaciones__Nclas">{{@key}}</th>
+                        <th><img class="tablaClasificacion__teams" src={{imgEscudo}}></th>
+                        <th>{{nomPiloto}}</th>
+                        <th class="tablaClasificaciones__TPuntos">{{total}}</th>
+                        {{#each puntos}}
+                            <th>{{puntaje}}</th>
+                        {{/each}}
+                    </tr>
                 {{/if}}
             {{/each}}
         </table>

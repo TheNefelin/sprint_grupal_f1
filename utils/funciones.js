@@ -134,19 +134,17 @@ export async function tablaPosiciones() {
 
     // llenar tabla
     carreras.carrera.forEach(carrera => {
-        const idCarrera = carrera.id - 1;
-
         carrera.pilotos.forEach(piloto => {
-            const idPiloto = piloto.id;
-            const puntos = piloto.puntaje;
+            const obj = {idPiloto: piloto.id, idCarrera: carrera.id - 1, puntos: piloto.puntaje};
 
-            // console.log({idPiloto: idPiloto, idCarrera: idCarrera});
-
-            tp.tablaPosiciones[idPiloto].total += puntos;
-            tp.tablaPosiciones[idPiloto].puntos[idCarrera].puntaje = puntos;
+            tp.tablaPosiciones[obj.idPiloto].total += obj.puntos;
+            tp.tablaPosiciones[obj.idPiloto].puntos[obj.idCarrera].puntaje = obj.puntos;
+            tp.tablaPosiciones[20].puntos[0].puntaje = 55
+            tp.tablaPosiciones[20].puntos[1].puntaje = 66
         });
     });
 
+    console.log(tp.tablaPosiciones[20])
     tp.tablaPosiciones.sort((a, b) => (b.total - a.total));
 
     return tp;

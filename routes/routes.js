@@ -11,7 +11,7 @@ myRouter.get("/", (req, res) => {
 
 myRouter.get("/posicionespiloto", (req, res) => {
     func.tablaPosiciones().then(data => {
-      res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], data});
+      res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], items: data.tablaPosiciones});
     });
 });
 
