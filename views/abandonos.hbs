@@ -1,29 +1,38 @@
 {{#> plantilla}}
-    <section class="abandonos">
+    <div class="tabless">
         <h1 class="margin0 h1Abandono">Abandonos</h1>
 
-        <table class="tabless">
-            <tr>
+        <table class="tablaClasificacion">
+            <tr class="trTablaTop">
                 <th>Piloto</th>
                 <th>N° Abandonos Personales</th>
                 <th>N° Abandonos Tecnicos</th>
             </tr>
+
             <tr>
+
                 <th>NombrePiloto</th>
                 <th>Cantidad de Abandonos</th>
                 <th>Cantidad de Abandonos</th>
+
             </tr>
         </table>
 
         <br><br>
-        <table class="tabless">
+        <table class="tablaClasificacion">
+            <h1 class="h1Abandono"> Fallecidos </h1>
             <tr>
-                <th>Pilotos Fallecidos</th>
+                <th>Escuderia</th>
+                <th>Pilotos</th>
             </tr>
-            <tr>
-                <th>Nombre Piloto</th>
-            </tr>
+            {{#each pilotosE}}
+                {{#if isAlive}}
+                    <tr>
+                        <th><img class="tablaClasificacion__teams" src={{team}}></th>
+                    <th>{{piloto}}</th>
+                {{/if}}
+            {{/each}}
         </table>
-    </section>
+    </div>
 
 {{/plantilla}}

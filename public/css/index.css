@@ -53,11 +53,14 @@
     border: solid 1px var(--clr-black);
     overflow-x: visible;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
+.trTablaTop {
+    font-weight: bold;
+}
 .tablaClasificacion__paises, .tablaClasificacion__teams {
-    max-height: 2rem;
+    max-height: 2.5rem;
 }
 .tablaClasificaciones__Nclas, .tablaClasificaciones__TPuntos {
     background-color: var(--clr-white-tras);
@@ -106,15 +109,14 @@
 }
 
 .race-resume {
+    background-image: url(../img/endcarrera.png);
     position: absolute;
-    background-color: red;
-    width: 100px;
-    height: 500px;
+    width: 55px;
+    height: 1000px;
     top: 18rem;
     left: 46rem;
     z-index: 0;
 }
-
 /* calendario ---------------------------------------------------- */
 .calendario {
     background-color: #181818;
@@ -158,15 +160,7 @@
 /* --------------------------------------------------------------- */
 /* Abandonos --------------------------------------------------------------- */
 
-.abandonos {
-    background-image: url(../img/fondoabandono.jpg);
-    color: var(--clr-white);
-    height: 35rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat:no-repeat ;
-    max-width: 100%;
-}
+
 .h1Abandono {
     text-align: center;
     padding-top: 1rem;
