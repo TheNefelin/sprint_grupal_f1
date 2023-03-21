@@ -27,7 +27,7 @@ myRouter.get("/abandonos", (req, res) => {
         // console.log(fallecidos)
 
         func.tablaAbandonos().then(abandonos => {
-            console.log(abandonos)
+            // console.log(abandonos)
 
             res.render("abandonos", {pilotosE: data.piloto});
         });

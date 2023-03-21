@@ -183,20 +183,20 @@ export async function tablaAbandonos() {
 
     data.carrera.forEach(carrera => {
         carrera.pilotos.forEach(pilotos => {
-            if (pilotos.isAlive && pilotos.desc != "") {
-                const dt = { id: pilotos.id, desc: pilotos.desc }
-                const index = arr.findIndex(e => e.id == dt.id && e.desc == dt.desc)
+            if (pilotos.isAlive && pilotos.desc != "") { 
+                const index = arr.findIndex(e => e.id == pilotos.id && e.desc == pilotos.desc)
                 if (index == -1) {
-                    const bp = bPilotos.piloto.find(e => e.id = pilotos.id)
-                    arr.push({...dt, cant: 1, piloto: bp.piloto});
+                    arr.push({...pilotos, cant: 1});
                 } else {
-                    arr[index].cant += 1;
+                    arr[index].cant += 1
                 }
-            };
+            }
         });
     });
 
-   return arr.sort((a, b) => (a.id - b.id));
+    arr.sort((a, b) => (a.id - b.id))
+
+    return arr;
 }; 
 
 export async function tablaResumenCarreraById(id) {
@@ -251,16 +251,19 @@ async function crearSimulacion(circuito, pilotos) {
 
         pilotos.forEach(piloto => {
             const estado = randomprob(posibilidades.estado);
+            
+            if (estado.puntuacion == 0) {
+                console.log(estado);
+            }
 
-            if (piloto.isRaceActive && piloto.lugar == 0) {
-                if (!estado.vivo) {
-                    piloto.isAlive = false;
-                    piloto.isRaceActive = false
-                    piloto.car = '/img/rip.svg'
-                    piloto.desc = estado.situacion;
-                } else if (estado.puntuacion == 0) {
-                    piloto.desc = estado.situacion; 
+            if (piloto.isRaceActive) {
+                if (estado.puntuacion == 0) {
                     piloto.isRaceActive = false 
+                    piloto.desc = estado.situacion; 
+                    if (!estado.vivo) {
+                        piloto.isAlive = false;
+                        piloto.car = '/img/rip.svg'
+                    }
                 } else {
                     piloto.dist += estado.puntuacion;
                     if (piloto.dist >= meta) {
@@ -281,6 +284,7 @@ async function crearSimulacion(circuito, pilotos) {
             aux.push(
                 {
                     id: piloto.id,
+                    piloto: piloto.piloto,
                     isAlive: piloto.isAlive,
                     isRaceActive: piloto.isRaceActive,
                     dist: piloto.dist,
