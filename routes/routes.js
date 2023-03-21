@@ -15,6 +15,7 @@ myRouter.get("/posicionespiloto", (req, res) => {
     });
 });
 
+//ADAPTAR
 myRouter.get("/posicionesescuderia", (req, res) => {
     func.leerArchivoEquipo().then(data => {
         res.render("posicionesEscuderia", {escudo: data.equipos});
@@ -25,11 +26,9 @@ myRouter.get("/abandonos", (req, res) => {
     func.leerArchivoPilotos().then(data => {
         const fallecidos = data.piloto.filter(e => e.isAlive == false);
         // console.log(fallecidos)
-
         func.tablaAbandonos().then(abandonos => {
-            // console.log(abandonos)
-
-            res.render("abandonos", {pilotosE: data.piloto});
+        // console.log(abandonos);
+            res.render("abandonos", {fallecidos, abandonos});
         });
     })
 });
