@@ -14,7 +14,6 @@ myRouter.get("/posicionespiloto", (req, res) => {
       res.render("posicionesPiloto", {bandera: data.tablaPosiciones[0], items: data.tablaPosiciones});
     });
 });
-
 //ADAPTAR
 myRouter.get("/posicionesescuderia", (req, res) => {
     func.leerArchivoEquipo().then(data => {
