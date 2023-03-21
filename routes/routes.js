@@ -17,6 +17,10 @@ myRouter.get("/posicionespiloto", (req, res) => {
 
 //ADAPTAR
 myRouter.get("/posicionesescuderia", (req, res) => {
+    func.tablaEscuderia().then(() => {
+        
+    });
+
     func.leerArchivoEquipo().then(data => {
         res.render("posicionesEscuderia", {escudo: data.equipos});
     });
