@@ -11,6 +11,12 @@ export async function leerArchivoCircuitos() {
     return await JSON.parse(data);
 };
 
+async function modificarArchivoCircuitos(circuitos) {
+    await fs.promises.writeFile('./data/circuitos.json', JSON.stringify(circuitos), err => {
+        if (err) throw err;
+    });
+};
+
 async function modificarArchivoCircuitosById(id) {
     const circuitos =  await leerArchivoCircuitos();
     
@@ -59,6 +65,12 @@ export async function leerArchivoPilotos() {
     });
 
     return await JSON.parse(dt);
+};
+
+async function modificarArchivoPilotos(pilotos) {
+    await fs.promises.writeFile('./data/pilotos.json', JSON.stringify(pilotos), err => {
+        if (err) throw err;
+    });
 };
 
 async function modificarArchivoPilotosById(ids) {
@@ -111,6 +123,23 @@ async function modificarArchivoSimulacionPublic(data) {
     });
 };
 
+export async function resetFile() {
+    const carreras = await leerArchivoCarreras();
+    await modificarArchivoCarreras({ carrera: [] });
+
+    const circuitos = await leerArchivoCircuitos();
+    for (let i = 0; i < circuitos.circuito.length; i++) {
+        circuitos.circuito[i].isActive = true;
+    }
+    await modificarArchivoCircuitos(circuitos);
+
+    const pilotos = await leerArchivoPilotos();
+    for (let i = 0; i < pilotos.piloto.length; i++) {
+        pilotos.piloto[i].isAlive = true; 
+    }
+    await modificarArchivoPilotos(pilotos);
+}
+
 export async function tablaPosiciones() {
     const circuitos = await leerArchivoCircuitos();
     const pilotos = await leerArchivoPilotos();
@@ -139,12 +168,9 @@ export async function tablaPosiciones() {
 
             tp.tablaPosiciones[obj.idPiloto].total += obj.puntos;
             tp.tablaPosiciones[obj.idPiloto].puntos[obj.idCarrera].puntaje = obj.puntos;
-            tp.tablaPosiciones[20].puntos[0].puntaje = 55
-            tp.tablaPosiciones[20].puntos[1].puntaje = 66
         });
     });
 
-    console.log(tp.tablaPosiciones[20])
     tp.tablaPosiciones.sort((a, b) => (b.total - a.total));
 
     return tp;
