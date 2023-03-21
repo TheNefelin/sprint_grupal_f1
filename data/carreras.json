@@ -1,1 +1,446 @@
+<<<<<<< HEAD
 {"carrera":[{"id":1,"fecha":"3 - 5 de mar.","circuito":"Gulf Air Bahrain GP, Bahrain International Circuit","flag":"/img/flags/1Bahrain.png","pista":"/img/pistas/pista01.svg","isActive":true,"pilotos":[{"id":1,"piloto":"Valtteri Bottas","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"","lugar":11},{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"","lugar":12},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":1,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":4,"piloto":"Pierre Gasly","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_02.svg","desc":"","lugar":3},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_03.svg","desc":"","lugar":1},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"","lugar":13},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_04.svg","desc":"","lugar":4},{"id":8,"piloto":"Fernando Alonso","isAlive":false,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/rip.svg","desc":"Accidente con muerte","lugar":0},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_05.svg","desc":"","lugar":5},{"id":10,"piloto":"Carlos Sainz","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_05.svg","desc":"","lugar":6},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_01.svg","desc":"","lugar":7},{"id":12,"piloto":"Nico Hulkenberg","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"","lugar":14},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_02.svg","desc":"","lugar":2},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"","lugar":15},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":2,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Accidente sin muerte","lugar":0},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"","lugar":16},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_04.svg","desc":"","lugar":8},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_05.svg","desc":"","lugar":9},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":1,"car":"/img/cars/car_05.svg","desc":"","lugar":10}]},{"id":2,"fecha":"17 - 19 de mar.","circuito":"STC Saudi Arabian GP, Jeddah Street Circuit","flag":"/img/flags/2ArabiaSaudita.png","pista":"/img/pistas/pista02.svg","isActive":true,"pilotos":[{"id":1,"piloto":"Valtteri Bottas","isAlive":true,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":2,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_02.svg","desc":"","lugar":6},{"id":4,"piloto":"Pierre Gasly","isAlive":true,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Accidente sin muerte","lugar":0},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_03.svg","desc":"","lugar":7},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":1,"car":"/img/cars/car_04.svg","desc":"","lugar":10},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":3,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"Accidente sin muerte","lugar":0},{"id":10,"piloto":"Carlos Sainz","isAlive":false,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/rip.svg","desc":"Accidente con muerte","lugar":0},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_01.svg","desc":"","lugar":8},{"id":12,"piloto":"Nico Hulkenberg","isAlive":true,"isRaceActive":false,"dist":1,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_02.svg","desc":"","lugar":9},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_02.svg","desc":"","lugar":1},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_03.svg","desc":"","lugar":4},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":2,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":2,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_04.svg","desc":"","lugar":5},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_05.svg","desc":"","lugar":2},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_05.svg","desc":"","lugar":3}]},{"id":3,"fecha":"31 mar. - 2 abr.","circuito":"Rolex Australian GP, Circuito Grand Prix Melbourne","flag":"/img/flags/3Australia.png","pista":"/img/pistas/pista03.svg","isActive":true,"pilotos":[{"id":1,"piloto":"Valtteri Bottas","isAlive":true,"isRaceActive":false,"dist":6,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_01.svg","desc":"","lugar":1},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":4,"piloto":"Pierre Gasly","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_02.svg","desc":"","lugar":2},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"","lugar":11},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_03.svg","desc":"","lugar":3},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"","lugar":12},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_05.svg","desc":"","lugar":4},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_01.svg","desc":"","lugar":5},{"id":12,"piloto":"Nico Hulkenberg","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_01.svg","desc":"","lugar":6},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":6,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_02.svg","desc":"","lugar":7},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Accidente sin muerte","lugar":0},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_03.svg","desc":"","lugar":8},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_04.svg","desc":"","lugar":9},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":1,"car":"/img/cars/car_04.svg","desc":"","lugar":10},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"","lugar":13},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"","lugar":14}]},{"id":4,"fecha":"28 - 30 de abr.","circuito":"GP de Azerbaiyán, Baku City Circuit","flag":"/img/flags/4Azerbaiyan.png","pista":"/img/pistas/pista04.svg","isActive":true,"pilotos":[{"id":1,"piloto":"Valtteri Bottas","isAlive":false,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/rip.svg","desc":"Accidente con muerte","lugar":0},{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_01.svg","desc":"","lugar":5},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":1,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":4,"piloto":"Pierre Gasly","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_02.svg","desc":"","lugar":6},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_03.svg","desc":"","lugar":1},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_03.svg","desc":"","lugar":7},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_04.svg","desc":"","lugar":2},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":4,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"","lugar":12},{"id":12,"piloto":"Nico Hulkenberg","isAlive":true,"isRaceActive":false,"dist":7,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_02.svg","desc":"","lugar":3},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_02.svg","desc":"","lugar":8},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"","lugar":13},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_03.svg","desc":"","lugar":4},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_04.svg","desc":"","lugar":9},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":1,"car":"/img/cars/car_04.svg","desc":"","lugar":10},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"","lugar":11},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_05.svg","desc":"","lugar":14}]},{"id":5,"fecha":"5 - 7 de may.","circuito":"Crypto.com Miami GP, Miami International Autodrome","flag":"/img/flags/5Miami.png","pista":"/img/pistas/pista05.svg","isActive":true,"pilotos":[{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":7,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Accidente sin muerte","lugar":0},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":7,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":4,"piloto":"Pierre Gasly","isAlive":false,"isRaceActive":false,"dist":6,"puntaje":0,"car":"/img/rip.svg","desc":"Accidente con muerte","lugar":0},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_03.svg","desc":"","lugar":3},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_03.svg","desc":"","lugar":4},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"","lugar":11},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_05.svg","desc":"","lugar":1},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":6,"puntaje":0,"car":"/img/cars/car_01.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":12,"piloto":"Nico Hulkenberg","isAlive":false,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/rip.svg","desc":"Accidente con muerte","lugar":0},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_02.svg","desc":"","lugar":8},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_02.svg","desc":"","lugar":5},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Accidente sin muerte","lugar":0},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_03.svg","desc":"","lugar":6},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_04.svg","desc":"","lugar":9},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":1,"car":"/img/cars/car_04.svg","desc":"","lugar":10},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_05.svg","desc":"","lugar":2},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_05.svg","desc":"","lugar":7}]},{"id":6,"fecha":"19 - 21 de may.","circuito":"Made in Italy Emilia Romagna GP, Autodromo Enzo e Dino Ferrari","flag":"/img/flags/6Italia.png","pista":"/img/pistas/pista06.svg","isActive":true,"pilotos":[{"id":2,"piloto":"Guanyu Zhou","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":18,"car":"/img/cars/car_01.svg","desc":"","lugar":2},{"id":3,"piloto":"Esteban Ocon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":2,"car":"/img/cars/car_02.svg","desc":"","lugar":9},{"id":5,"piloto":"Nyck de Vries","isAlive":true,"isRaceActive":false,"dist":2,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":6,"piloto":"Yuki Tsunoda","isAlive":true,"isRaceActive":false,"dist":3,"puntaje":0,"car":"/img/cars/car_03.svg","desc":"Accidente sin muerte","lugar":0},{"id":7,"piloto":"Lance Stroll","isAlive":true,"isRaceActive":false,"dist":3,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":9,"piloto":"Charles Leclerc","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":15,"car":"/img/cars/car_05.svg","desc":"","lugar":3},{"id":11,"piloto":"Kevin Magnussen","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":12,"car":"/img/cars/car_01.svg","desc":"","lugar":4},{"id":13,"piloto":"Lando Norris","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":10,"car":"/img/cars/car_02.svg","desc":"","lugar":5},{"id":14,"piloto":"Oscar Piastri","isAlive":true,"isRaceActive":false,"dist":0,"puntaje":0,"car":"/img/cars/car_02.svg","desc":"Accidente sin muerte","lugar":0},{"id":15,"piloto":"Lewis Hamilton","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":8,"car":"/img/cars/car_03.svg","desc":"","lugar":6},{"id":16,"piloto":"George Russell","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":25,"car":"/img/cars/car_03.svg","desc":"","lugar":1},{"id":17,"piloto":"Max Verstappen","isAlive":true,"isRaceActive":false,"dist":7,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":18,"piloto":"Checo Pérez","isAlive":true,"isRaceActive":false,"dist":5,"puntaje":0,"car":"/img/cars/car_04.svg","desc":"Abandono por problemas tecnicos","lugar":0},{"id":19,"piloto":"Alex Albon","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":4,"car":"/img/cars/car_05.svg","desc":"","lugar":8},{"id":20,"piloto":"Logan Sargeant","isAlive":true,"isRaceActive":false,"dist":8,"puntaje":6,"car":"/img/cars/car_05.svg","desc":"","lugar":7}]}]}
+=======
+{
+    "carrera": [
+        {
+            "id": 1,
+            "fecha": "3 - 5 de mar.",
+            "circuito": "Gulf Air Bahrain GP, Bahrain International Circuit",
+            "flag": "/img/flags/1Bahrain.png",
+            "pista": "/img/pistas/pista01.svg",
+            "isActive": true,
+            "pilotos": [
+                {
+                    "id": 1,
+                    "piloto": "Valtteri Bottas",
+                    "isAlive": false,
+                    "isRaceActive": false,
+                    "dist": 6,
+                    "puntaje": 0,
+                    "car": "/img/rip.svg",
+                    "desc": "Accidente con muerte",
+                    "lugar": 0
+                },
+                {
+                    "id": 2,
+                    "piloto": "Guanyu Zhou",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 6,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "",
+                    "lugar": 7
+                },
+                {
+                    "id": 3,
+                    "piloto": "Esteban Ocon",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 15,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "",
+                    "lugar": 3
+                },
+                {
+                    "id": 4,
+                    "piloto": "Pierre Gasly",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 12,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "",
+                    "lugar": 4
+                },
+                {
+                    "id": 5,
+                    "piloto": "Nyck de Vries",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 4,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 8
+                },
+                {
+                    "id": 6,
+                    "piloto": "Yuki Tsunoda",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 25,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 1
+                },
+                {
+                    "id": 7,
+                    "piloto": "Lance Stroll",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 10,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "",
+                    "lugar": 5
+                },
+                {
+                    "id": 8,
+                    "piloto": "Fernando Alonso",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 2,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "",
+                    "lugar": 9
+                },
+                {
+                    "id": 9,
+                    "piloto": "Charles Leclerc",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 4,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 10,
+                    "piloto": "Carlos Sainz",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 1,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 10
+                },
+                {
+                    "id": 11,
+                    "piloto": "Kevin Magnussen",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 18,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "",
+                    "lugar": 2
+                },
+                {
+                    "id": 12,
+                    "piloto": "Nico Hulkenberg",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "",
+                    "lugar": 11
+                },
+                {
+                    "id": 13,
+                    "piloto": "Lando Norris",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 3,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 14,
+                    "piloto": "Oscar Piastri",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "",
+                    "lugar": 12
+                },
+                {
+                    "id": 15,
+                    "piloto": "Lewis Hamilton",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 8,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 6
+                },
+                {
+                    "id": 16,
+                    "piloto": "George Russell",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 0,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 17,
+                    "piloto": "Max Verstappen",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "",
+                    "lugar": 13
+                },
+                {
+                    "id": 18,
+                    "piloto": "Checo Pérez",
+                    "isAlive": false,
+                    "isRaceActive": false,
+                    "dist": 1,
+                    "puntaje": 0,
+                    "car": "/img/rip.svg",
+                    "desc": "Accidente con muerte",
+                    "lugar": 0
+                },
+                {
+                    "id": 19,
+                    "piloto": "Alex Albon",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 15
+                },
+                {
+                    "id": 20,
+                    "piloto": "Logan Sargeant",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 14
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "fecha": "17 - 19 de mar.",
+            "circuito": "STC Saudi Arabian GP, Jeddah Street Circuit",
+            "flag": "/img/flags/2ArabiaSaudita.png",
+            "pista": "/img/pistas/pista02.svg",
+            "isActive": true,
+            "pilotos": [
+                {
+                    "id": 2,
+                    "piloto": "Guanyu Zhou",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 8,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "",
+                    "lugar": 6
+                },
+                {
+                    "id": 3,
+                    "piloto": "Esteban Ocon",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 6,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "",
+                    "lugar": 7
+                },
+                {
+                    "id": 4,
+                    "piloto": "Pierre Gasly",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 15,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "",
+                    "lugar": 3
+                },
+                {
+                    "id": 5,
+                    "piloto": "Nyck de Vries",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 4,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 8
+                },
+                {
+                    "id": 6,
+                    "piloto": "Yuki Tsunoda",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 2,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 9
+                },
+                {
+                    "id": 7,
+                    "piloto": "Lance Stroll",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 5,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 8,
+                    "piloto": "Fernando Alonso",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 25,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "",
+                    "lugar": 1
+                },
+                {
+                    "id": 9,
+                    "piloto": "Charles Leclerc",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 3,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 10,
+                    "piloto": "Carlos Sainz",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 1,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 10
+                },
+                {
+                    "id": 11,
+                    "piloto": "Kevin Magnussen",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 12,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "",
+                    "lugar": 4
+                },
+                {
+                    "id": 12,
+                    "piloto": "Nico Hulkenberg",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 0,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_01.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 13,
+                    "piloto": "Lando Norris",
+                    "isAlive": false,
+                    "isRaceActive": false,
+                    "dist": 3,
+                    "puntaje": 0,
+                    "car": "/img/rip.svg",
+                    "desc": "Accidente con muerte",
+                    "lugar": 0
+                },
+                {
+                    "id": 14,
+                    "piloto": "Oscar Piastri",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 0,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_02.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 15,
+                    "piloto": "Lewis Hamilton",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "",
+                    "lugar": 11
+                },
+                {
+                    "id": 16,
+                    "piloto": "George Russell",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 0,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_03.svg",
+                    "desc": "Abandono por problemas tecnicos",
+                    "lugar": 0
+                },
+                {
+                    "id": 17,
+                    "piloto": "Max Verstappen",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 18,
+                    "car": "/img/cars/car_04.svg",
+                    "desc": "",
+                    "lugar": 2
+                },
+                {
+                    "id": 19,
+                    "piloto": "Alex Albon",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 0,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 12
+                },
+                {
+                    "id": 20,
+                    "piloto": "Logan Sargeant",
+                    "isAlive": true,
+                    "isRaceActive": false,
+                    "dist": 8,
+                    "puntaje": 10,
+                    "car": "/img/cars/car_05.svg",
+                    "desc": "",
+                    "lugar": 5
+                }
+            ]
+        }
+    ]
+}
+>>>>>>> aedebea5d616be41f212be1827204ebf9b7771a6
