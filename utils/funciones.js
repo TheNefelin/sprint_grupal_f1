@@ -206,6 +206,26 @@ export async function tablaResumenCarreraById(id) {
     return await carrera.pilotos;
 }; 
 
+// pendiente
+export async function tablaEscuderia() {
+    const arrEscuderias = [];
+    const carreras = await leerArchivoCarreras();
+    const pilotos = await leerArchivoPilotos();
+
+    console.log(pilotos.piloto)
+
+    //  pilotos.foreEach(e => {
+    //     console.log(e)
+    //     arrEscuderias.push({
+    //         idEscuderia: e.idEscuderia,
+    //         team: e.team,
+    //         idPiloto: e.idPiloto
+    //     });
+    // });
+
+    console.log(arrEscuderias)
+};
+
 export async function tablaCarrera() {
     const circuitos = await leerArchivoCircuitos();
     const equipo = await leerArchivoEquipo();
